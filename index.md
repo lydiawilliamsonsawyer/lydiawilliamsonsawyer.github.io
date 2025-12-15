@@ -2,12 +2,12 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Text can be **bold**
 
-# Header 1
+# Examples of work
 
-This is a normal paragraph following a header. 
+This is where I'll write about my work. 
 
-## Header 2
+## Links
 
 
