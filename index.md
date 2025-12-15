@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Text can be **bold**
+Hello, this is my **website**
 
 # Examples of work
 
