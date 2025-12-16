@@ -1,25 +1,4 @@
 title: Lydia
 description: A website outlining my work
 show_downloads: false
-google_analytics:
 theme: jekyll-theme-minimal
-<!--
-Source - https://stackoverflow.com/q
-Posted by GaiusBaltar
-Retrieved 2025-12-16, License - CC BY-SA 4.0
--->
-
----
-  defaults:
-    # _docs
-    - scope:
-        path: ""
-        type: main
-      values:
-        sidebar:
-          nav: "main"
-  ---        
-sidebar:
-  nav:
-    - main
-    - docs
