@@ -2,3 +2,26 @@
 ---
 
 @import "jekyll-theme-minimal";
+---
+   ---
+   
+   @import "{{ site.theme }}";
+   
+   nav ul {
+     list-style: none;
+     padding: 0;
+     margin: 20px 0;
+   }
+   
+   nav ul li {
+     margin: 10px 0;
+   }
+   
+   nav ul li a {
+     color: #267CB9;
+     text-decoration: none;
+   }
+   
+   nav ul li a:hover {
+     text-decoration: underline;
+   }
