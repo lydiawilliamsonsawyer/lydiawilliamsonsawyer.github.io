@@ -5,15 +5,19 @@
 
 body {
   font-family: 'Lora', serif;
-  font-size: 16px;  /* Makes main content text bigger */
+  font-size: 16px;
+}
+
+section p {
+  color: black;  /* Makes main content paragraphs black */
 }
 
 header p {
-  font-size: 16px;  /* Makes "A website outlining my work" bigger */
+  font-size: 16px;
 }
 
 header nav ul li a {
-  font-size: 16px;  /* Makes navigation links bigger */
+  font-size: 16px;
 }
 
 small {
