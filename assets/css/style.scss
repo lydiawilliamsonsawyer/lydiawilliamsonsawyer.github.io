@@ -2,26 +2,24 @@
 ---
 
 @import "jekyll-theme-minimal";
----
-   ---
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+header nav ul li {
+  margin: 10px 0;
+}
+
+header nav ul li a {
+  color: #267CB9;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
    
-   @import "{{ site.theme }}";
-   
-   nav ul {
-     list-style: none;
-     padding: 0;
-     margin: 20px 0;
-   }
-   
-   nav ul li {
-     margin: 10px 0;
-   }
-   
-   nav ul li a {
-     color: #267CB9;
-     text-decoration: none;
-   }
-   
-   nav ul li a:hover {
-     text-decoration: underline;
-   }
