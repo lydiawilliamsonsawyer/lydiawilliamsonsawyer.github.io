@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 Hello, this is my **website**
 
 # Interests and experience
