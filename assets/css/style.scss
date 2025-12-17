@@ -8,6 +8,22 @@ body {
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
   font-weight: 200;
+  background-color: #fafafa;
+}
+
+header h1 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+section {
+  margin-top: 40px;
+}
+
+section h1, section h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 strong, b {
@@ -16,6 +32,7 @@ strong, b {
 
 section p {
   color: black;
+  margin-bottom: 20px;
 }
 
 header p {
