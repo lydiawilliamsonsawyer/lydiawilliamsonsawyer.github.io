@@ -4,10 +4,12 @@ layout: default
 
 Hello, this is my **website**
 
-# Examples of work
+# Interests and experience
 
-This is where I'll write about my work. 
+## Interest 1
 
-## Links
+This is where I'll write about interest 1.
 
+## Interest 2
 
+This is where I'll write about interest 2.
