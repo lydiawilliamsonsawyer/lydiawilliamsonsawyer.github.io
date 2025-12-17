@@ -3,12 +3,12 @@ layout: default
 ---
 Hello, this is my **website**
 
-# Interests and experience
+# Experience
 
-## Interest 1
+## 1
 
-This is where I'll write about interest 1.
+This is where I'll write ...
 
-## Interest 2
+## 2
 
-This is where I'll write about interest 2.
+This is where I'll write more ...
