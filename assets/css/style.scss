@@ -8,32 +8,36 @@ body {
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
   font-weight: 200;
+  background-color: #fafafa;
 }
 
 header h1 {
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
   margin-bottom: 15px;
+  padding-right: 0;
+  margin-right: 0;
+  width: 100%;
 }
 
-header nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 20px 0;
+header h1 a {
+  color: black;
 }
 
-header nav ul li {
-  margin: 0;
-  padding: 12px 0;
-  border-bottom: 1px solid #ddd;
-}
-
-header nav ul li:first-child {
-  border-top: 1px solid #ddd;
-}
-
-header nav ul li a {
+header h1 a:hover {
   color: black;
   text-decoration: none;
-  font-size: 16px;
 }
+
+header p {
+  margin-bottom: 10px;
+}
+
+header p a {
+  color: black;
+  text-decoration: none;
+}
+
+header p a:hover {
+  color: black;
+  text-dec
