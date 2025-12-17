@@ -1,5 +1,6 @@
 ---
 ---
+
 @import "jekyll-theme-minimal";
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;700&display=swap');
 
@@ -7,7 +8,6 @@ body {
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
   font-weight: 200;
-  background-color: #cce5ff;
 }
 
 strong, b {
@@ -57,4 +57,11 @@ header nav ul li a {
   font-size: 16px;
 }
 
-header nav
+header nav ul li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+small {
+  font-size: 14px;
+}
