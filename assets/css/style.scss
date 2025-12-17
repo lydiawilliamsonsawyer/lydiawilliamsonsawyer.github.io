@@ -2,76 +2,18 @@
 ---
 
 @import "jekyll-theme-minimal";
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap');
 
 body {
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
   font-weight: 200;
-  background-color: #fafafa;
 }
 
 header h1 {
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
   margin-bottom: 15px;
-  white-space: nowrap;
-  font-weight: 400;
-}
-
-section {
-  margin-top: 0px;
-  padding-top: 0px;
-  border-top: none;
-}
-
-section h1 {
-  margin-top: 30px;
-  margin-bottom: 20px;
-  font-weight: 400;
-}
-
-section h2 {
-  margin-top: 30px;
-  margin-bottom: 20px;
-  font-weight: 400;
-}
-
-strong {
-  font-weight: 300;
-}
-
-b {
-  font-weight: 300;
-}
-
-section p {
-  color: black;
-  margin-bottom: 20px;
-}
-
-header p {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-header p a {
-  color: black;
-  text-decoration: none;
-}
-
-header p a:hover {
-  color: black;
-  text-decoration: underline;
-}
-
-header h1 a {
-  color: black;
-}
-
-header h1 a:hover {
-  color: black;
-  text-decoration: none;
 }
 
 header nav ul {
@@ -86,4 +28,12 @@ header nav ul li {
   border-bottom: 1px solid #ddd;
 }
 
-header nav ul li:first-c
+header nav ul li:first-child {
+  border-top: 1px solid #ddd;
+}
+
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
