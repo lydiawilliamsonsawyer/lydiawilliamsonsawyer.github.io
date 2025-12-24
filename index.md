@@ -15,8 +15,10 @@ During my time at the RNIB, <a href="https://www.linkedin.com/posts/rnib_charity
 
 **Other interests**
 
-I am also interested in digital surveillance, writing can be found here, and ….
+I am also interested in digital surveillance, writing can be found here.
 
-Spirituality and Buddhism in the contemporary age, writing here, and have organised retreats around ecology and meditation.
+And spirituality and Buddhism in the contemporary age, writing here, and have organised retreats around ecology and meditation.
 
-Beyond this I work at XX and am on the organising committee for AntiUniversity.
+Decentralised autonomous education
+
+Community living
