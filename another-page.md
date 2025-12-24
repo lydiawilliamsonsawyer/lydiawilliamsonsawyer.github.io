@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## My CV
+**CV**
 
 This is where I'll put my CV
 
