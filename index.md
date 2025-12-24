@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# I am a workshop facilitator and writer. I design and lead workshops that enable participants to explore their feelings, desires, and emotions in relation to broader social and political contexts.
+**I am a workshop facilitator and writer. I design and lead workshops that enable participants to explore their feelings, desires, and emotions in relation to broader social and political contexts.**
 
 ## Some examples of workshops I’ve led are:
 
