@@ -215,3 +215,23 @@ small {
     padding: 15px;
   }
 }
+
+/* Override any theme scaling on links */
+a, a:hover, a:focus, a:active {
+  transform: scale(1) !important;
+  -webkit-transform: scale(1) !important;
+  -moz-transform: scale(1) !important;
+  -ms-transform: scale(1) !important;
+  -o-transform: scale(1) !important;
+  zoom: 1 !important;
+}
+
+section a, section a:hover, section a:focus, section a:active,
+section p a, section p a:hover, section p a:focus, section p a:active,
+section ul a, section ul a:hover, section ul a:focus, section ul a:active {
+  transform: scale(1) !important;
+  -webkit-transform: scale(1) !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  zoom: 1 !important;
+}
