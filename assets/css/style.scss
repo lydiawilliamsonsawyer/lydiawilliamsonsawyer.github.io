@@ -118,11 +118,13 @@ section a {
   color: black;
   text-decoration: underline;
   font-weight: 400;
+  transition: none;
 }
 
 section a:hover {
   color: black;
   text-decoration: underline;
+  transform: none;
 }
 
 /* Make bold text actually bold */
