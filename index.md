@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-I am a *workshop facilitator and writer*. I design and lead workshops that enable participants to explore their feelings, desires, and emotions in relation to broader social and political contexts.
+I am a * workshop facilitator and writer *. I design and lead workshops that enable participants to explore their feelings, desires, and emotions in relation to broader social and political contexts.
 
-# Some examples of workshops I’ve led are:
+## Some examples of workshops I’ve led are:
 
 * Feel Tank: On Ambivalence, Dissatisfaction and Disappointment as part of AntiUniversity Festival 2025
 * Critical Hedonism(s): On the Politics of Desire at Alt Shift Festival 2025
@@ -13,7 +13,7 @@ My workshop facilitation is informed by an interest in disability and accessibil
 
 During my time at the RNIB, my team was awarded The Charity Awards ‘Campaigning and Advocacy Award’ and I spoke on RNIB Connect Radio about behaviour change in attitudes towards sight loss.
 
-# Other interests
+## Other interests
 
 I am also interested in digital surveillance, writing can be found here, and ….
 
