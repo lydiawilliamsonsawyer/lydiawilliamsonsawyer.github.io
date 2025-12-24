@@ -116,6 +116,13 @@ section h2 {
 
 section a {
   color: black;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+section a:hover {
+  color: black;
+  text-decoration: underline;
 }
 
 /* Make bold text actually bold */
