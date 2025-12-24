@@ -2,111 +2,192 @@
 ---
 @import "jekyll-theme-minimal";
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
 body {
   font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   font-weight: 300;
   background-color: #FFFFFF;
+  padding: 0;
+  margin: 0;
 }
-header h1 {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
-  margin-bottom: 15px;
+
+.wrapper {
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Top horizontal header */
+header.top-header {
+  width: 100%;
+  padding: 20px 50px;
+  border-bottom: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: static;
+  float: none;
+}
+
+header.top-header h1 {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-right: 40px;
   font-weight: 400;
+  font-size: 18px;
 }
-header h1 a {
+
+header.top-header h1 a {
   color: black;
   text-decoration: none;
 }
-header h1 a:hover {
+
+header.top-header h1 a:hover {
   color: black;
   text-decoration: none;
 }
-header p {
-  margin-bottom: 10px;
-}
-header p a {
-  color: black;
-  text-decoration: none;
-}
-header p a:hover {
-  color: black;
-  text-decoration: underline;
-}
-header nav ul {
+
+/* Horizontal navigation */
+header.top-header nav ul {
   list-style: none;
   padding: 0;
-  margin: 20px 0;
-}
-header nav ul li {
   margin: 0;
-  padding: 12px 0;
-  border-bottom: 1px solid #ddd;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
-header nav ul li:first-child {
-  border-top: 1px solid #ddd;
+
+header.top-header nav ul li {
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
+  border-top: none;
+  display: inline-block;
 }
-header nav ul li a {
-  color: black;
+
+header.top-header nav ul li a {
+  color: blue;
   text-decoration: none;
   font-size: 14px;
 }
-header nav ul li a:hover {
-  color: black;
-  text-decoration: none;
+
+header.top-header nav ul li a:hover {
+  color: blue;
+  text-decoration: underline;
 }
+
+/* Main content section */
 section {
-  margin-left: 100px;
+  width: 100%;
+  padding: 40px 50px;
+  margin-left: 0;
   margin-top: 0;
-  padding-top: 0;
+  padding-top: 20px;
   border-top: none;
+  float: none;
 }
+
 section p {
   color: black;
   margin-bottom: 20px;
 }
+
 /* Keep the first paragraph (intro text) at original size */
 section p:first-of-type {
   font-size: 16px;
 }
+
 section h1 {
   color: black;
   font-weight: 400;
   margin-top: 30px;
   margin-bottom: 20px;
 }
+
 section h2 {
   color: black;
   font-weight: 400;
   margin-top: 30px;
   margin-bottom: 20px;
 }
+
 section a {
   color: black;
 }
-/* Make bold text actually bold (changed from 300 to 400) */
+
+/* Make bold text actually bold */
 strong, b {
   font-weight: 400;
 }
+
 /* Make bullet points black instead of grey */
 section ul li {
   color: #000;
 }
+
 section ul li::marker {
   color: #000;
 }
+
+/* Footer */
+footer {
+  width: 100%;
+  padding: 20px 50px;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+  float: none;
+}
+
+footer p {
+  margin: 0;
+  color: #999;
+}
+
 small {
   font-size: 12px;
 }
+
+/* Responsive adjustments */
 @media print, screen and (max-width: 960px) {
+  header.top-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  header.top-header nav {
+    margin-top: 15px;
+  }
+  
+  header.top-header nav ul {
+    flex-wrap: wrap;
+  }
+  
   section {
+    padding: 20px;
     margin-left: 0;
-    margin-top: 20px;
+    margin-top: 0;
+  }
+  
+  footer {
+    padding: 20px;
   }
 }
+
 @media print, screen and (max-width: 720px) {
+  header.top-header {
+    padding: 15px;
+  }
+  
   section {
+    padding: 15px;
     margin-left: 0;
+  }
+  
+  footer {
+    padding: 15px;
   }
 }
