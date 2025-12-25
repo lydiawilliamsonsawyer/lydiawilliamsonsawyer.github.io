@@ -11,14 +11,14 @@ layout: default
 
 My workshop facilitation is informed by an interest in disability and accessibility. I recently co-designed an immersive digital accessibility workshop for LSE staff and academics at the Eden Centre for Education Enhancement, and previously worked as a Campaigners Office at the Royal National Institute of Blind People where I ran a series of team workshops on understanding sight loss through an intersectional lens.
 
-During my time at the RNIB, <a href="https://www.linkedin.com/posts/rnib_charityawards-activity-7216801218373791747-wYgI" target="_blank">my team was awarded</a> The Charity Awards 'Campaigning and Advocacy Award' and I spoke on <a href="https://audioboom.com/posts/8152520-join-unlocking-equality-by-changing-behaviours-an-rnib-panel-discussion-event-and-help-to-cha" target="_blank">RNIB Connect Radio</a> about behaviour change in attitudes towards sight loss.
+During my time at the RNIB, my team was awarded <a href="https://www.linkedin.com/posts/rnib_charityawards-activity-7216801218373791747-wYgI" target="_blank">The Charity Awards 'Campaigning and Advocacy Award'</a> and I spoke on <a href="https://audioboom.com/posts/8152520-join-unlocking-equality-by-changing-behaviours-an-rnib-panel-discussion-event-and-help-to-cha" target="_blank">RNIB Connect Radio</a> about behaviour change in attitudes towards sight loss.
 
 **Other interests**
 
 I am also interested in digital surveillance, writing can be found here.
 
-And spirituality and Buddhism in the contemporary age, writing here, and have organised retreats around ecology and meditation.
+Alongside this, I am drawn to spirituality and Buddhism, writing here, and have organised retreats around ecology and meditation.
 
-Decentralised autonomous education
+I am also engaged in alternative forms of learning and education, working at Kairos Counter-Club and am on the organising committee for AntiUniversity.
 
-Community living
+Another interest is community living, and I have spent time living and volunteering in communities across the UK and Europe.
