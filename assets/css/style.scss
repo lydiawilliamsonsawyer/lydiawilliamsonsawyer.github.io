@@ -93,6 +93,7 @@ section {
 section p {
   color: black;
   margin-bottom: 20px;
+  font-size: 14px;
 }
 
 section h1 {
@@ -145,6 +146,7 @@ strong, b {
 /* Make bullet points black instead of grey */
 section ul li {
   color: #000;
+  font-size: 14px;
 }
 
 section ul li::marker {
