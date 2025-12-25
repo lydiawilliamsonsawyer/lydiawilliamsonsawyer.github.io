@@ -34,5 +34,36 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+      // Override theme's link scaling
+      document.addEventListener('DOMContentLoaded', function() {
+        const style = document.createElement('style');
+        style.textContent = `
+          section a, section a:hover, section p a, section p a:hover, 
+          section ul a, section ul a:hover {
+            transform: none !important;
+            -webkit-transform: none !important;
+            font-size: inherit !important;
+          }
+          section a:hover {
+            font-weight: 700 !important;
+          }
+        `;
+        document.head.appendChild(style);
+        
+        // Remove any inline transforms on links
+        const links = document.querySelectorAll('section a');
+        links.forEach(link => {
+          link.style.transform = 'none';
+          link.addEventListener('mouseenter', function(e) {
+            e.target.style.transform = 'none';
+            e.target.style.fontWeight = '700';
+          });
+          link.addEventListener('mouseleave', function(e) {
+            e.target.style.fontWeight = '400';
+          });
+        });
+      });
+    </script>
   </body>
 </html>
