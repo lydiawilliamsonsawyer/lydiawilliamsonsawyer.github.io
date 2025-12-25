@@ -237,6 +237,11 @@ section ul a, section ul a:hover, section ul a:focus, section ul a:active {
   transition: font-weight 0.1s ease !important;
 }
 
+.wrapper section a:hover {
+  transform: none !important;
+  font-weight: 700 !important;
+}
+
 /* Final override - prevent any link changes except our custom ones */
 a:hover,
 a:focus {
@@ -247,9 +252,5 @@ a:focus {
 section a:hover,
 section p a:hover,
 section ul li a:hover {
-  font-weight: 700 !important;
-}
-.wrapper section a:hover {
-  transform: none !important;
   font-weight: 700 !important;
 }
