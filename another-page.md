@@ -14,8 +14,8 @@ Awarded James Johnson Scholarship for high ranking in the Order of Merit
 
 **Work**
 
-**Event Staff, XX, London** — November 2025-present  
-Provide venue setup, guest services, and event support for talks and workshops exploring radical ideas for social and cultural change.
+**Event Staff, Kairos Counter-Club, London** — November 2025-present  
+Provide venue setup and event support for talks and workshops exploring radical ideas for social and cultural change.
 
 **Digital Accessibility Workshop Co-designer, LSE Eden Centre** — March 2025-May 2025  
 Co-designed an immersive digital accessibility workshop for LSE staff and academics, contributing lived experience insights and iterative feedback to improve digital accessibility and inclusion.
