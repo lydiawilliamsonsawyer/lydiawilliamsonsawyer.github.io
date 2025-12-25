@@ -232,3 +232,14 @@ section ul a, section ul a:hover, section ul a:focus, section ul a:active {
   line-height: inherit !important;
   zoom: 1 !important;
 }
+
+/* Additional nuclear option to kill all scaling */
+.wrapper section a {
+  transform: none !important;
+  transition: font-weight 0.1s ease !important;
+}
+
+.wrapper section a:hover {
+  transform: none !important;
+  font-weight: 700 !important;
+}
