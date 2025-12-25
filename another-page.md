@@ -2,8 +2,6 @@
 layout: default
 ---
 
-**CV**
-
 **Education**
 
 **The London School of Economics and Political Science** — 2024-2026  
