@@ -118,28 +118,25 @@ section a {
   color: black;
   text-decoration: underline;
   font-weight: 400;
-  transition: none !important;
-  transform: none !important;
-  font-size: inherit !important;
+  transition: font-weight 0.1s ease;
 }
 
 section a:hover {
   color: black;
   text-decoration: underline;
-  transform: none !important;
-  font-size: inherit !important;
-  scale: 1 !important;
+  font-weight: 700;
 }
 
 section p a {
   display: inline;
-  transform: none !important;
-  scale: 1 !important;
 }
 
 section p a:hover {
-  transform: none !important;
-  scale: 1 !important;
+  font-weight: 700;
+}
+
+section ul li a:hover {
+  font-weight: 700;
 }
 
 /* Make bold text actually bold */
