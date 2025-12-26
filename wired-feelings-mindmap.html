@@ -12,7 +12,6 @@
             background-color: #ffffff;
             color: #000000;
             overflow: hidden;
-            touch-action: none;
         }
 
         .mind-map-container {
@@ -288,11 +287,29 @@
             // Touch events for mobile
             node.element.addEventListener('touchstart', (e) => {
                 const touch = e.touches[0];
-                startDrag(node, touch.clientX, touch.clientY);
+                
+                // If it's a branch node, show hover text first
+                if (node !== nodes.center) {
+                    showHoverText(node, touch.clientX, touch.clientY);
+                    
+                    // Only start dragging if touch is held for a moment
+                    node.dragTimeout = setTimeout(() => {
+                        startDrag(node, touch.clientX, touch.clientY);
+                    }, 200);
+                } else {
+                    startDrag(node, touch.clientX, touch.clientY);
+                }
+                
                 e.preventDefault();
             });
 
-            // Hover text for branch nodes
+            node.element.addEventListener('touchend', (e) => {
+                if (node.dragTimeout) {
+                    clearTimeout(node.dragTimeout);
+                }
+            });
+
+            // Hover text for branch nodes (desktop)
             if (node !== nodes.center) {
                 node.element.addEventListener('mouseenter', (e) => {
                     showHoverText(node, e.clientX, e.clientY);
@@ -305,14 +322,6 @@
                 node.element.addEventListener('mousemove', (e) => {
                     if (!draggedNode) {
                         updateHoverTextPosition(e.clientX, e.clientY);
-                    }
-                });
-
-                // Touch events for showing hover text on mobile
-                node.element.addEventListener('touchstart', (e) => {
-                    if (!draggedNode) {
-                        const touch = e.touches[0];
-                        showHoverText(node, touch.clientX, touch.clientY);
                     }
                 });
             }
