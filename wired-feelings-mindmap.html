@@ -12,12 +12,19 @@
             background-color: #ffffff;
             color: #000000;
             overflow: hidden;
+            touch-action: none;
         }
 
         .mind-map-container {
             position: relative;
-            width: 100vw;
-            height: 100vh;
+            width: 100%;
+            height: 500px;
+        }
+
+        @media (max-width: 768px) {
+            .mind-map-container {
+                height: 400px;
+            }
         }
 
         canvas {
@@ -52,6 +59,22 @@
         .branch-node {
             font-size: 15px;
             font-weight: 400;
+        }
+
+        @media (max-width: 768px) {
+            .center-node {
+                font-size: 20px;
+            }
+            
+            .branch-node {
+                font-size: 12px;
+            }
+            
+            .hover-text {
+                max-width: 250px;
+                font-size: 12px;
+                padding: 15px 18px;
+            }
         }
 
         .node1 {
@@ -112,17 +135,17 @@
         </div>
 
         <!-- Branch nodes -->
-        <div class="node branch-node node1" id="node1" data-x="0" data-y="-200" 
+        <div class="node branch-node node1" id="node1" data-x="0" data-y="-150" 
              data-text="Feelings are collective and connected, rather than individualised">
             Intricately connected
         </div>
 
-        <div class="node branch-node node2" id="node2" data-x="-250" data-y="150" 
+        <div class="node branch-node node2" id="node2" data-x="-180" data-y="110" 
              data-text="Feelings are digitally mediated, algorithmically manipulated">
             Algorithmically mediated
         </div>
 
-        <div class="node branch-node node3" id="node3" data-x="250" data-y="150" 
+        <div class="node branch-node node3" id="node3" data-x="180" data-y="110" 
              data-text="We feel exhausted yet alert, nervous, on edge">
             Exhausted yet alert
         </div>
@@ -148,9 +171,9 @@
         // Node data
         const nodes = {
             center: { element: document.getElementById('center'), x: 0, y: 0, color: '#000000' },
-            node1: { element: document.getElementById('node1'), x: 0, y: -200, color: '#000000' },
-            node2: { element: document.getElementById('node2'), x: -250, y: 150, color: '#000000' },
-            node3: { element: document.getElementById('node3'), x: 250, y: 150, color: '#000000' }
+            node1: { element: document.getElementById('node1'), x: 0, y: -150, color: '#000000' },
+            node2: { element: document.getElementById('node2'), x: -180, y: 110, color: '#000000' },
+            node3: { element: document.getElementById('node3'), x: 180, y: 110, color: '#000000' }
         };
 
         // Small decorative nodes
@@ -256,24 +279,23 @@
         let dragOffset = { x: 0, y: 0 };
 
         Object.values(nodes).forEach(node => {
+            // Mouse events
             node.element.addEventListener('mousedown', (e) => {
-                draggedNode = node;
-                node.element.classList.add('dragging');
-                
-                const rect = node.element.getBoundingClientRect();
-                dragOffset.x = e.clientX - rect.left - rect.width / 2;
-                dragOffset.y = e.clientY - rect.top - rect.height / 2;
-                
+                startDrag(node, e.clientX, e.clientY);
+                e.preventDefault();
+            });
+
+            // Touch events for mobile
+            node.element.addEventListener('touchstart', (e) => {
+                const touch = e.touches[0];
+                startDrag(node, touch.clientX, touch.clientY);
                 e.preventDefault();
             });
 
             // Hover text for branch nodes
             if (node !== nodes.center) {
                 node.element.addEventListener('mouseenter', (e) => {
-                    const text = node.element.getAttribute('data-text');
-                    hoverText.textContent = text;
-                    hoverText.classList.add('show');
-                    updateHoverTextPosition(e);
+                    showHoverText(node, e.clientX, e.clientY);
                 });
 
                 node.element.addEventListener('mouseleave', () => {
@@ -282,36 +304,84 @@
 
                 node.element.addEventListener('mousemove', (e) => {
                     if (!draggedNode) {
-                        updateHoverTextPosition(e);
+                        updateHoverTextPosition(e.clientX, e.clientY);
+                    }
+                });
+
+                // Touch events for showing hover text on mobile
+                node.element.addEventListener('touchstart', (e) => {
+                    if (!draggedNode) {
+                        const touch = e.touches[0];
+                        showHoverText(node, touch.clientX, touch.clientY);
                     }
                 });
             }
         });
 
-        function updateHoverTextPosition(e) {
-            hoverText.style.left = (e.clientX + 15) + 'px';
-            hoverText.style.top = (e.clientY + 15) + 'px';
+        function startDrag(node, x, y) {
+            draggedNode = node;
+            node.element.classList.add('dragging');
+            
+            const rect = node.element.getBoundingClientRect();
+            dragOffset.x = x - rect.left - rect.width / 2;
+            dragOffset.y = y - rect.top - rect.height / 2;
         }
 
+        function showHoverText(node, x, y) {
+            const text = node.element.getAttribute('data-text');
+            hoverText.textContent = text;
+            hoverText.classList.add('show');
+            updateHoverTextPosition(x, y);
+        }
+
+        function updateHoverTextPosition(x, y) {
+            hoverText.style.left = (x + 15) + 'px';
+            hoverText.style.top = (y + 15) + 'px';
+        }
+
+        // Mouse move
         document.addEventListener('mousemove', (e) => {
             if (draggedNode) {
-                const centerX = canvas.width / 2;
-                const centerY = canvas.height / 2;
-                
-                draggedNode.x = e.clientX - centerX - dragOffset.x;
-                draggedNode.y = e.clientY - centerY - dragOffset.y;
-                
-                positionNodes();
-                drawConnections();
+                updateDragPosition(e.clientX, e.clientY);
             }
         });
 
+        // Touch move for mobile
+        document.addEventListener('touchmove', (e) => {
+            if (draggedNode) {
+                const touch = e.touches[0];
+                updateDragPosition(touch.clientX, touch.clientY);
+                e.preventDefault();
+            }
+        });
+
+        function updateDragPosition(x, y) {
+            const centerX = canvas.width / 2;
+            const centerY = canvas.height / 2;
+            
+            draggedNode.x = x - centerX - dragOffset.x;
+            draggedNode.y = y - centerY - dragOffset.y;
+            
+            positionNodes();
+            drawConnections();
+        }
+
+        // Mouse up
         document.addEventListener('mouseup', () => {
+            endDrag();
+        });
+
+        // Touch end for mobile
+        document.addEventListener('touchend', () => {
+            endDrag();
+        });
+
+        function endDrag() {
             if (draggedNode) {
                 draggedNode.element.classList.remove('dragging');
                 draggedNode = null;
             }
-        });
+        }
 
         // Initial draw
         positionNodes();
