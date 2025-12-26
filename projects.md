@@ -15,7 +15,3 @@ How does this emotional engineering further anti-feminist, authoritarian, and ex
 What happens to social movements when our emotions and feelings are shaped by corporately owned digital technologies?
 
 <iframe src="wired-feelings-mindmap.html" style="width: 100%; height: 370px; border: none;"></iframe>
-
-@media (min-width: 769px) {
-  iframe { height: 520px !important; }
-}
