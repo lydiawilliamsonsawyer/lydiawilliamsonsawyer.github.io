@@ -449,29 +449,37 @@
         });
 
         // Touch end for mobile
-        document.addEventListener('touchend', () => {
+        document.addEventListener('touchend', (e) => {
             endDrag();
-        });
-
-        // Click/tap anywhere to dismiss hover text
-        document.addEventListener('click', (e) => {
-            // Don't dismiss if clicking on a branch node
-            const clickedNode = Object.values(nodes).find(node => 
-                node.element === e.target || node.element.contains(e.target)
-            );
-            if (!clickedNode || clickedNode === nodes.center) {
+            
+            // Dismiss hover text if tapping outside a branch node
+            const touch = e.changedTouches[0];
+            const touchedElement = document.elementFromPoint(touch.clientX, touch.clientY);
+            
+            // Check if we tapped on a branch node
+            let tappedBranchNode = false;
+            Object.values(nodes).forEach(node => {
+                if (node !== nodes.center && 
+                    (node.element === touchedElement || node.element.contains(touchedElement))) {
+                    tappedBranchNode = true;
+                }
+            });
+            
+            // If we didn't tap on a branch node, hide the hover text
+            if (!tappedBranchNode && hoverText.classList.contains('show')) {
                 hoverText.classList.remove('show');
             }
         });
 
-        document.addEventListener('touchstart', (e) => {
-            // Don't dismiss if touching a branch node
-            const touch = e.touches[0];
-            const touchedElement = document.elementFromPoint(touch.clientX, touch.clientY);
-            const touchedNode = Object.values(nodes).find(node => 
-                node.element === touchedElement || node.element.contains(touchedElement)
+        // Click anywhere to dismiss hover text (desktop)
+        document.addEventListener('click', (e) => {
+            // Don't dismiss if clicking on a branch node
+            const clickedNode = Object.values(nodes).find(node => 
+                node !== nodes.center && 
+                (node.element === e.target || node.element.contains(e.target))
             );
-            if (!touchedNode || touchedNode === nodes.center) {
+            
+            if (!clickedNode && hoverText.classList.contains('show')) {
                 hoverText.classList.remove('show');
             }
         });
