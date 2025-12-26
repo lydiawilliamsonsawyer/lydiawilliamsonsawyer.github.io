@@ -13,3 +13,5 @@ Digital platforms do not only exploit our data, time and money, they manipulate 
 How are our feelings mediated and controlled through algorithmically structured digital platforms?
 How does this emotional engineering further anti-feminist, authoritarian, and extractivist logics?
 What happens to social movements when our emotions and feelings are shaped by corporately owned digital technologies?
+
+<iframe src="wired-feelings-mindmap.html" style="width: 100%; height: 600px; border: none;"></iframe>
