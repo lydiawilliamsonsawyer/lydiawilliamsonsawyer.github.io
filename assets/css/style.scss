@@ -136,10 +136,16 @@ section ul li a:hover {
   font-weight: 700;
 }
 
-/* Make bold text actually bold */
+/* Make bold text actually bold but same size as regular text */
 strong, b {
   font-weight: 400;
   font-size: 14px;
+}
+
+/* Keep first bold text in paragraphs at 16px (for section headers like Education, Work) */
+p:first-of-type strong:first-child,
+p strong:only-child {
+  font-size: 16px;
 }
 
 /* Make bullet points black instead of grey */
