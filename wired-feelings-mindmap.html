@@ -411,9 +411,24 @@
             }
         }
 
-        // Initial draw
-        positionNodes();
-        drawConnections();
+        // Initial draw - ensure it happens after everything loads
+        function init() {
+            resizeCanvas();
+            adjustForMobile();
+            positionNodes();
+            drawConnections();
+        }
+
+        // Call on load and after short delay to ensure canvas is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', init);
+        } else {
+            init();
+        }
+        
+        window.addEventListener('load', () => {
+            setTimeout(init, 50);
+        });
     </script>
 </body>
 </html>
