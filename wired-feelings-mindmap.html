@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wired Feelings Mind Map</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
     <style>
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Ubuntu', sans-serif;
+            font-family: 'PT Mono', monospace;
             background-color: #ffffff;
             color: #000000;
             overflow: hidden;
@@ -49,7 +52,7 @@
         }
 
         .center-node {
-            font-size: 28px;
+            font-size: 22px;
             font-weight: 500;
             color: #000000;
             letter-spacing: 0.5px;
@@ -62,7 +65,7 @@
 
         @media (max-width: 768px) {
             .center-node {
-                font-size: 20px;
+                font-size: 16px;
             }
             
             .branch-node {
@@ -114,8 +117,8 @@
             transition: opacity 0.2s ease;
             z-index: 100;
             line-height: 1.7;
-            border: 2px solid #000000;
-            box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
+            border: none;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
             font-weight: 300;
         }
 
@@ -203,19 +206,19 @@
 
         // Small decorative nodes
         const smallNodes = [];
-        const numSmallNodes = window.innerWidth <= 768 ? 25 : 50;
+        const numSmallNodes = window.innerWidth <= 768 ? 60 : 120;
         
         for (let i = 0; i < numSmallNodes; i++) {
             const angle = Math.random() * Math.PI * 2;
-            const distance = (window.innerWidth <= 768 ? 60 : 100) + Math.random() * (window.innerWidth <= 768 ? 150 : 300);
+            const distance = (window.innerWidth <= 768 ? 30 : 50) + Math.random() * (window.innerWidth <= 768 ? 200 : 350);
             const x = Math.cos(angle) * distance;
             const y = Math.sin(angle) * distance;
             
             smallNodes.push({
                 x: x,
                 y: y,
-                size: 2 + Math.random() * 3,
-                opacity: 0.3 + Math.random() * 0.5
+                size: 2 + Math.random() * 4,
+                opacity: 0.4 + Math.random() * 0.6
             });
         }
 
@@ -265,11 +268,11 @@
                 }
             }
 
-            // Draw small decorative nodes - fewer and more subtle
+            // Draw small decorative nodes - more visible
             smallNodes.forEach(sNode => {
                 ctx.beginPath();
-                ctx.arc(centerX + sNode.x, centerY + sNode.y, sNode.size * 0.7, 0, Math.PI * 2);
-                ctx.fillStyle = `rgba(0, 0, 0, ${sNode.opacity * 0.2})`;
+                ctx.arc(centerX + sNode.x, centerY + sNode.y, sNode.size * 0.8, 0, Math.PI * 2);
+                ctx.fillStyle = `rgba(0, 0, 0, ${sNode.opacity * 0.4})`;
                 ctx.globalAlpha = 1;
                 ctx.fill();
 
@@ -291,7 +294,7 @@
                     ctx.beginPath();
                     ctx.moveTo(centerX + sNode.x, centerY + sNode.y);
                     ctx.lineTo(centerX + nearestBranch.x, centerY + nearestBranch.y);
-                    ctx.strokeStyle = 'rgba(0, 0, 0, 0.08)';
+                    ctx.strokeStyle = 'rgba(0, 0, 0, 0.12)';
                     ctx.lineWidth = 0.5;
                     ctx.globalAlpha = 1;
                     ctx.stroke();
@@ -370,8 +373,35 @@
         }
 
         function updateHoverTextPosition(x, y) {
-            hoverText.style.left = (x + 15) + 'px';
-            hoverText.style.top = (y + 15) + 'px';
+            const boxWidth = 320; // max-width of hover-text
+            const boxHeight = 150; // approximate height
+            const margin = 20;
+            
+            let left = x + 15;
+            let top = y + 15;
+            
+            // Check right boundary
+            if (left + boxWidth > window.innerWidth - margin) {
+                left = x - boxWidth - 15;
+            }
+            
+            // Check left boundary
+            if (left < margin) {
+                left = margin;
+            }
+            
+            // Check bottom boundary
+            if (top + boxHeight > window.innerHeight - margin) {
+                top = y - boxHeight - 15;
+            }
+            
+            // Check top boundary
+            if (top < margin) {
+                top = margin;
+            }
+            
+            hoverText.style.left = left + 'px';
+            hoverText.style.top = top + 'px';
         }
 
         // Mouse move
