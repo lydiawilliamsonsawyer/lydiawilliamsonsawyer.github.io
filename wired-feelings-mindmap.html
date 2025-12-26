@@ -22,7 +22,7 @@
 
         @media (max-width: 768px) {
             .mind-map-container {
-                height: 350px;
+                height: 300px;
             }
         }
 
@@ -179,11 +179,18 @@
         function adjustForMobile() {
             if (window.innerWidth <= 768) {
                 nodes.node1.x = 0;
-                nodes.node1.y = -100;
-                nodes.node2.x = -120;
-                nodes.node2.y = 80;
-                nodes.node3.x = 120;
-                nodes.node3.y = 80;
+                nodes.node1.y = -80;
+                nodes.node2.x = -100;
+                nodes.node2.y = 65;
+                nodes.node3.x = 100;
+                nodes.node3.y = 65;
+            } else {
+                nodes.node1.x = 0;
+                nodes.node1.y = -150;
+                nodes.node2.x = -180;
+                nodes.node2.y = 110;
+                nodes.node3.x = 180;
+                nodes.node3.y = 110;
             }
         }
 
@@ -387,8 +394,20 @@
             const centerX = canvas.width / 2;
             const centerY = canvas.height / 2;
             
-            draggedNode.x = x - centerX - dragOffset.x;
-            draggedNode.y = y - centerY - dragOffset.y;
+            // Calculate new position
+            let newX = x - centerX - dragOffset.x;
+            let newY = y - centerY - dragOffset.y;
+            
+            // Apply boundaries - keep nodes within canvas
+            const margin = 50; // pixels from edge
+            const maxX = centerX - margin;
+            const maxY = centerY - margin;
+            
+            newX = Math.max(-maxX, Math.min(maxX, newX));
+            newY = Math.max(-maxY, Math.min(maxY, newY));
+            
+            draggedNode.x = newX;
+            draggedNode.y = newY;
             
             positionNodes();
             drawConnections();
