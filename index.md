@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-**I am a workshop facilitator and writer. I design and lead workshops that enable participants to explore their feelings, desires, and emotions in relation to broader social and political contexts.**
+**I am a workshop facilitator and researcher. I design and lead workshops that enable participants to explore their feelings, desires, and emotions in relation to broader social and political contexts.**
 
 **Some examples of workshops I've led are:**
 
@@ -15,10 +15,10 @@ During my time at the RNIB, my team was awarded <a href="https://www.linkedin.co
 
 **Other interests**
 
-I am also interested in digital surveillance, writing can be found here.
+I am also interested in digital surveillance, writing can be found here [forthcoming].
 
-Alongside this, I am drawn to spirituality and Buddhism, writing here, and have organised retreats around ecology and meditation.
+Alongside this, I am drawn to spirituality and Buddhism, and have organised retreats around ecology and meditation.
 
-I am also engaged in alternative forms of learning and education, working at Kairos Counter-Club and am on the organising committee for AntiUniversity.
+I am also engaged in alternative non-institutional forms of learning and education, working at Kairos Counter-Club and on the organising committee for AntiUniversity.
 
 Another interest is community living, and I have spent time living and volunteering in communities across the UK and Europe.
