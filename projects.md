@@ -2,10 +2,6 @@
 layout: default
 ---
 
-**Feel Tank**
-
-"the present is perceived, first, affectively" Lauren Berlant (2011)
-
 **Wired Feelings**
 
 Digital platforms do not only exploit our data, time and money, they manipulate our feelings, desires, and relationships to ourselves and one another.
