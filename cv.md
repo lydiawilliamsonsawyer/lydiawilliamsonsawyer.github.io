@@ -14,7 +14,7 @@ Awarded James Johnson Scholarship for high ranking in the Order of Merit
 
 **Work**
 
-**Contributing Writer, Cripping Methods Lab** — January 2026
+**Contributing Writer, Cripping Methods Lab** — January 2026  
 I am writing an academic glossary for a project on disability-centred approaches to sociological research.
 
 **Event Staff, Kairos Counter-Club** — November 2025-present  
