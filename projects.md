@@ -10,4 +10,4 @@ How are our feelings mediated and controlled through algorithmically structured 
 How does this emotional engineering further anti-feminist, authoritarian, and extractivist logics?
 What happens to social movements when our emotions and feelings are shaped by corporately owned digital technologies?
 
-<iframe src="wired-feelings-mindmap.html" style="width: 100%; height: 370px; border: none;"></iframe>
+<iframe src="/wired-feelings-mindmap.html" style="width: 100%; height: 520px; border: none;"></iframe>
