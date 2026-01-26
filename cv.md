@@ -24,7 +24,9 @@ Provide venue setup and event support for talks and workshops exploring radical 
 Co-designed an immersive digital accessibility workshop for LSE staff and academics, contributing lived experience insights and iterative feedback to improve digital accessibility and inclusion.
 
 **Campaigns Officer, Royal National Institute of Blind People** — May 2022-August 2024  
-Led planning and delivery of RNIB campaigns on education, accessible voting, and employment. Coordinated digital communications, monitored analytics, and created online petitions using Engaging Networks. During my time at the RNIB, my team was awarded <a href="https://www.linkedin.com/posts/rnib_charityawards-activity-7216801218373791747-wYgI" target="_blank">The Charity Awards 'Campaigning and Advocacy Award'</a> and I spoke on <a href="https://audioboom.com/posts/8152520-join-unlocking-equality-by-changing-behaviours-an-rnib-panel-discussion-event-and-help-to-cha" target="_blank">RNIB Connect Radio</a> about behaviour change and sight loss.
+Led planning and delivery of RNIB campaigns on education, accessible voting, and employment. Coordinated digital communications, monitored analytics, and created online petitions using Engaging Networks.
 
 **Assistant Campaigns Officer, Royal National Institute of Blind People** — November 2021-May 2022  
 Managed public enquiries, assisted with parliamentary events, and maintained RNIB Campaigns social media channels.
+
+During my time at the RNIB, my team was awarded <a href="https://www.linkedin.com/posts/rnib_charityawards-activity-7216801218373791747-wYgI" target="_blank">The Charity Awards 'Campaigning and Advocacy Award'</a> and I spoke on <a href="https://audioboom.com/posts/8152520-join-unlocking-equality-by-changing-behaviours-an-rnib-panel-discussion-event-and-help-to-cha" target="_blank">RNIB Connect Radio</a> about behaviour change and sight loss.
