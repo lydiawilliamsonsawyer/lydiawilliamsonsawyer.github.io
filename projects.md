@@ -2,7 +2,7 @@
 layout: default
 ---
 
-**Feel Tank**
+## Feel Tank
 
 Inspired by [Feel Tank Chicago](https://chronicle.uchicago.edu/071018/political-feeling.shtml), set up in the early 2000s, this project begins from the premise that our feelings, particularly those which may feel difficult to express, are not entirely personal or individual but have a wider social and political significance. 
 
@@ -12,7 +12,7 @@ I am particularly interested in incongruent feelings - ambivalence, dissatisfact
 
 If you also share this interest, please do email me as I am keen to chat to fellow feel-ers. 
 
-**Wired Feelings**
+## Wired Feelings
 
 Building on explorations with the Feel Tank form, Wired Feelings applies the consciousness-raising framework to examine our affective entanglements with digital technologies. Critical approaches to digital technology put forth how corporately owned technologies, such as social media platforms, are sites of surveillance, data extraction, and the commodification of user attention. Wired Feelings extends this critique by examining the role of digial technologies in manipulating our feelings, desires, and relationships to ourselves. 
 
