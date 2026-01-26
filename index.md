@@ -11,8 +11,6 @@ layout: default
 
 My workshop facilitation is informed by an interest in disability and accessibility. I recently co-designed an immersive digital accessibility workshop for LSE staff and academics at the Eden Centre for Education Enhancement, and previously worked as a Campaigners Office at the Royal National Institute of Blind People where I ran a series of team workshops on understanding sight loss through an intersectional lens.
 
-During my time at the RNIB, my team was awarded <a href="https://www.linkedin.com/posts/rnib_charityawards-activity-7216801218373791747-wYgI" target="_blank">The Charity Awards 'Campaigning and Advocacy Award'</a> and I spoke on <a href="https://audioboom.com/posts/8152520-join-unlocking-equality-by-changing-behaviours-an-rnib-panel-discussion-event-and-help-to-cha" target="_blank">RNIB Connect Radio</a> about behaviour change and sight loss.
-
 **Other interests**
 
 I am also interested in digital surveillance, writing can be found here [forthcoming].
