@@ -3,7 +3,7 @@ layout: default
 ---
 **I am a workshop facilitator and writer. I design and lead workshops for participants to explore their feelings, desires, and emotions in relation to  social and political contexts.**
 
-**Some examples of workshops I've led are:**
+## Some examples of workshops I've led are:
 
 * <a href="https://festival.antiuniversity.org/event/$8Yfobg5XStkIUuuiCme1G_adLSoasuJB7DsFzcRf-Zg" target="_blank">Feel Tank: On Ambivalence, Dissatisfaction and Disappointment</a> as part of AntiUniversity Festival 2025
 * Critical Hedonism(s): On the Politics of Desire at <a href="https://www.altshiftfestival.org/" target="_blank">Alt Shift Festival 2025</a>
@@ -11,7 +11,7 @@ layout: default
 
 My workshop facilitation is informed by an interest in disability and accessibility. I recently co-designed an immersive digital accessibility workshop for LSE staff and academics at the Eden Centre for Education Enhancement, and previously worked as a Campaigners Office at the Royal National Institute of Blind People where I ran a series of team workshops on understanding sight loss through an intersectional lens.
 
-**Current interests**
+## Current interests
 
 My main interest in the intersection between how we feel and broader social and political conditions. This an interest which has led me in many directions, including:
 
