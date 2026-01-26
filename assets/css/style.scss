@@ -93,6 +93,7 @@ section {
 section p {
   color: black;
   margin-bottom: 20px;
+  font-size: 14px;
 }
 
 section h1 {
@@ -142,15 +143,10 @@ strong, b {
   font-size: 14px;
 }
 
-/* Keep first bold text in paragraphs at 16px (for section headers like Education, Work) */
-p:first-of-type strong:first-child,
-p strong:only-child {
-  font-size: 16px;
-}
-
 /* Make bullet points black instead of grey */
 section ul li {
   color: #000;
+  font-size: 14px;
 }
 
 section ul li::marker {
@@ -245,5 +241,18 @@ section ul a, section ul a:hover, section ul a:focus, section ul a:active {
 
 .wrapper section a:hover {
   transform: none !important;
+  font-weight: 700 !important;
+}
+
+/* Final override - prevent any link changes except our custom ones */
+a:hover,
+a:focus {
+  font-weight: inherit !important;
+}
+
+/* Only section links should go bold */
+section a:hover,
+section p a:hover,
+section ul li a:hover {
   font-weight: 700 !important;
 }
