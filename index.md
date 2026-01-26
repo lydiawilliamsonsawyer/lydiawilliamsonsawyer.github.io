@@ -11,7 +11,7 @@ I am a workshop facilitator and writer. I design and lead workshops for particip
 * Critical Hedonism(s): On the Politics of Desire at <a href="https://www.altshiftfestival.org/" target="_blank">Alt Shift Festival 2025</a>
 * Queering Happiness as part of the Queer Utopias reading group at the London Night Cafe 2025
 
-My workshop facilitation is informed by an interest in disability and accessibility. I recently co-designed an immersive digital accessibility workshop for LSE staff and academics at the Eden Centre for Education Enhancement, and previously worked as a Campaigners Office at the Royal National Institute of Blind People where I ran a series of team workshops on understanding sight loss through an intersectional lens.
+My workshop facilitation is informed by an interest in disability and accessibility. I recently co-designed an immersive digital accessibility workshop for LSE staff and academics at the Eden Centre for Education Enhancement, and previously worked as a Campaigns Office at the Royal National Institute of Blind People where I ran a series of team workshops on understanding sight loss through an intersectional lens.
 
 ## Current interests
 
