@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-**I am a workshop facilitator and writer. I design and lead workshops for participants to explore their feelings, desires, and emotions in relation to  social and political contexts.**
+<div class="intro-text">
+I am a workshop facilitator and writer. I design and lead workshops for participants to explore their feelings, desires, and emotions in relation to social and political contexts.
+</div>
 
 ## Some examples of workshops I've led are:
 
