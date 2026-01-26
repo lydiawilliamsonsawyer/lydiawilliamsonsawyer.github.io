@@ -2,7 +2,7 @@
 layout: default
 ---
 
-**Education**
+## Education
 
 **The London School of Economics and Political Science** — 2024-2026  
 MSc Culture and Society (part-time)  
@@ -12,7 +12,7 @@ Awarded distinction in first year
 First-Class Honours BA in Human, Social and Political Sciences  
 Awarded James Johnson Scholarship for high ranking in the Order of Merit
 
-**Work**
+## Work
 
 **Contributing Writer, Cripping Methods Lab** — January 2026  
 I am writing an academic glossary for a project on disability-centred approaches to sociological research.
