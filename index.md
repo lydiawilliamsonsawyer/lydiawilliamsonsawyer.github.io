@@ -6,15 +6,6 @@ layout: default
 **Some examples of workshops I've led are:**
 
 * <a href="https://festival.antiuniversity.org/event/$8Yfobg5XStkIUuuiCme1G_adLSoasuJB7DsFzcRf-Zg" target="_blank">Feel Tank: On Ambivalence, Dissatisfaction and Disappointment</a> as part of AntiUniversity Festival 2025
-
-Event description: Can feeling ambivalent be the grounds for social and political transformation?
-
-Inspired by Feel Tank Chicago, set up in the early 2000s, this workshop begins from the premise that our feelings, particularly those which may appear difficult to express, are not personal or idiosyncratic, but rather politically illuminating and socially important.
-
-This Feel Tank is an experiment in reflecting and exploring the complexity, ambivalence and perhaps nonsensical nature of feelings. By embracing and expressing feelings which may be subject to dismissal or pathologisation, we open up the possibility of better understanding the workings of oppressive power structures and of utilising our feelings as potential sites for political awareness and collective mobilisation.
-
-The workshop will be structured around feelings towards the themes of work, relationships and technology, and the invitation is to engage in a collective discussion, but please note there is no expectation to share your feelings if you do not wish to.
-
 * Critical Hedonism(s): On the Politics of Desire at <a href="https://www.altshiftfestival.org/" target="_blank">Alt Shift Festival 2025</a>
 * Queering Happiness as part of the Queer Utopias reading group at the London Night Cafe 
 
