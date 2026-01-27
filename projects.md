@@ -18,7 +18,6 @@ The last Feel Tank I held was in October 2025, as part of Anti-University Festiv
   position: relative;
   margin: 40px auto;
   height: 600px;
-  background-color: #f0f0f0;
 }
 
 .slide {
@@ -34,8 +33,10 @@ The last Feel Tank I held was in October 2025, as part of Anti-University Festiv
 }
 
 .slide img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
   object-fit: contain;
 }
 
