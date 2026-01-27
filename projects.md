@@ -12,12 +12,95 @@ I am particularly interested in using the Feel Tank form to explore incongruent 
 
 The last Feel Tank I held was in October 2025, as part of Anti-University Festival, during which a group of 14 of us explored where in our lives we feel ambivalence, dissatisfaction and disappointment. These are some of the reflections from the workshop:
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; max-width: 1000px; margin: 40px auto;">
-  <img src="/assets/IMG_8872.jpeg" alt="Photo 3" style="width: 100%; height: 250px; object-fit: cover; transform: rotate(270deg);">
-  <img src="/assets/IMG_8870.jpeg" alt="Photo 2" style="width: 100%; height: 250px; object-fit: cover;">
-  <img src="/assets/IMG_8869.jpeg" alt="Photo 1" style="width: 100%; height: 250px; object-fit: cover; transform: rotate(90deg);">
-  <img src="/assets/IMG_8875.jpeg" alt="Photo 4" style="width: 100%; height: 250px; object-fit: cover; transform: rotate(90deg);">
+<style>
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: 40px auto;
+}
+
+.slide {
+  display: none;
+  text-align: center;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide img {
+  max-width: 100%;
+  height: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+}
+
+.prev {
+  left: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+</style>
+
+<div class="slideshow-container">
+  <div class="slide active">
+    <img src="/assets/IMG_8872.jpeg" alt="Photo 1" style="transform: rotate(270deg);">
+  </div>
+  
+  <div class="slide">
+    <img src="/assets/IMG_8870.jpeg" alt="Photo 2">
+  </div>
+  
+  <div class="slide">
+    <img src="/assets/IMG_8869.jpeg" alt="Photo 3" style="transform: rotate(90deg);">
+  </div>
+  
+  <div class="slide">
+    <img src="/assets/IMG_8875.jpeg" alt="Photo 4" style="transform: rotate(90deg);">
+  </div>
+
+  <button class="prev" onclick="changeSlide(-1)">❮</button>
+  <button class="next" onclick="changeSlide(1)">❯</button>
 </div>
+
+<script>
+let slideIndex = 0;
+
+function changeSlide(n) {
+  const slides = document.querySelectorAll('.slide');
+  slides[slideIndex].classList.remove('active');
+  
+  slideIndex += n;
+  
+  if (slideIndex >= slides.length) {
+    slideIndex = 0;
+  }
+  if (slideIndex < 0) {
+    slideIndex = slides.length - 1;
+  }
+  
+  slides[slideIndex].classList.add('active');
+}
+</script>
 
 If you also share this interest, feel free to email me as I am keen to chat with fellow feel-ers. 
 
