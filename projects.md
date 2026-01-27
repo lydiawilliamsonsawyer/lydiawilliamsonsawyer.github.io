@@ -12,11 +12,11 @@ I am particularly interested in using the Feel Tank form to explore incongruent 
 
 The last Feel Tank I held was in October 2025, as part of Anti-University Festival, during which a group of 14 of us explored where in our lives we feel ambivalence, dissatisfaction and disappointment. These are some of the reflections from the workshop:
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 800px; margin: 20px auto;">
-  <img src="/assets/IMG_8872.jpeg" alt="Photo 3" style="width: 100%; height: 300px; object-fit: cover; transform: rotate(270deg);">
-  <img src="/assets/IMG_8870.jpeg" alt="Photo 2" style="width: 100%; height: 300px; object-fit: cover;">
-  <img src="/assets/IMG_8869.jpeg" alt="Photo 1" style="width: 100%; height: 300px; object-fit: cover; transform: rotate(90deg);">
-  <img src="/assets/IMG_8875.jpeg" alt="Photo 4" style="width: 100%; height: 300px; object-fit: cover; transform: rotate(90deg);">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 900px; margin: 40px auto;">
+  <img src="/assets/IMG_8872.jpeg" alt="Photo 3" style="width: 100%; height: auto; transform: rotate(270deg);">
+  <img src="/assets/IMG_8870.jpeg" alt="Photo 2" style="width: 100%; height: auto;">
+  <img src="/assets/IMG_8869.jpeg" alt="Photo 1" style="width: 100%; height: auto; transform: rotate(90deg);">
+  <img src="/assets/IMG_8875.jpeg" alt="Photo 4" style="width: 100%; height: auto; transform: rotate(90deg);">
 </div>
 
 If you also share this interest, feel free to email me as I am keen to chat with fellow feel-ers. 
