@@ -12,13 +12,13 @@ I am particularly interested in using the Feel Tank form to explore incongruent 
 
 The last Feel Tank I held was in October 2025, as part of Anti-University Festival, during which a group of 14 of us explored where in our lives we feel ambivalence, dissatisfaction and disappointment. These are some of the reflections from the workshop:
 
-
 <style>
 .slideshow-container {
   max-width: 900px;
   position: relative;
   margin: 40px auto;
   height: 600px;
+  background-color: #f0f0f0;
 }
 
 .slide {
@@ -34,8 +34,8 @@ The last Feel Tank I held was in October 2025, as part of Anti-University Festiv
 }
 
 .slide img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 
