@@ -14,27 +14,26 @@ The last Feel Tank I held was in October 2025, as part of Anti-University Festiv
 
 <style>
 .slideshow-container {
-  max-width: 800px;
+  max-width: 1000px;
   position: relative;
   margin: 40px auto;
+  height: 700px;
 }
 
 .slide {
   display: none;
-  text-align: center;
-  height: 500px;
+  width: 100%;
+  height: 100%;
 }
 
 .slide.active {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
 }
 
 .slide img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .prev, .next {
@@ -43,11 +42,11 @@ The last Feel Tank I held was in October 2025, as part of Anti-University Festiv
   top: 50%;
   transform: translateY(-50%);
   width: auto;
-  padding: 16px;
+  padding: 20px;
   color: white;
   background-color: rgba(0,0,0,0.5);
   font-weight: bold;
-  font-size: 24px;
+  font-size: 30px;
   border: none;
   user-select: none;
   z-index: 10;
@@ -68,11 +67,11 @@ The last Feel Tank I held was in October 2025, as part of Anti-University Festiv
 
 <div class="slideshow-container">
   <div class="slide active">
-    <img src="/assets/IMG_8872.jpeg" alt="Photo 1" style="transform: rotate(270deg);">
+    <img src="/assets/IMG_8870.jpeg" alt="Photo 2">
   </div>
   
   <div class="slide">
-    <img src="/assets/IMG_8870.jpeg" alt="Photo 2">
+    <img src="/assets/IMG_8872.jpeg" alt="Photo 1" style="transform: rotate(270deg);">
   </div>
   
   <div class="slide">
