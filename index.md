@@ -15,12 +15,12 @@ My workshop facilitation is informed by an interest in disability and accessibil
 
 ## Current interests
 
-My main interest is in the intersection between how we feel and broader social and political conditions. This is an interest which has led me in many directions, including:
+My main interest is in the intersection between feelings and broader social and political conditions. This is an interest which has led me in many directions, including:
 
-Spirituality and Buddhism. I have spent time living in Buddhist communities and organised retreats with the Triratna Buddhist community on meditation and Deep Ecology. In 2024 I was involved in setting up a group called "Transforming Self and World" at the London Buddhist Centre which involves regular public events to discuss the applicability of Buddhist teachings to current social and political issues.
+Spirituality and Buddhism. I have spent time living in Buddhist communities and organised retreats with the Triratna Buddhist community on meditation and Deep Ecology. In 2024, I was involved in setting up a "Transforming Self and World" group at the London Buddhist Centre which involves regular public events to discuss the applicability of Buddhist teachings to current social and political issues.
 
-Digital technologies. I am increasingly concerned about the development of AI systems and the impact this has on our emotional and affective states. I have recently written about the dangers of moving to a digital cashless economy for my student newspaper at LSE, [forthcoming 28 Jan 26].
+Digital technologies. I am interested in the processes through which discourses of optimisation, efficiency, and producitivty are culturally mobilised to justify harmful and high-risk technological developments, particularly in relation to digital surveillance, AI companion services, and platformisation. I have recently written about the dangers of transitioning to a digital cashless economy for my student newspaper at LSE, [forthcoming 28 Jan 26].
 
-Alternative, non-institutional learning. I am drawn to non-institutional and non-hierarchical forms of learning and education. I engage with this interest through working at Kairos Counter-Club and as a member of the organising committee for AntiUniversity.
+Alternative, non-institutional learning. I am passionate about accessible, participatory, and non-hierarchical forms of education. I engage with this interest through working at Kairos Counter-Club and as a member of the organising committee for AntiUniversity.
 
-Community living. I feel sceptical of dominant private housing models and have spent time living and working at various communities, co-housing projects, and ecovillages in the UK and Europe.
+Community living. I am drawn to alternative forms of community living and have lived and volunteering at various communities, co-housing projects, and ecovillages in the UK and Europe. The benefits of Nonviolent Communication for building and sustaining communities is a particular interest.
