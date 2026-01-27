@@ -4,7 +4,7 @@ layout: default
 
 ## Feel Tank
 
-Inspired by [Feel Tank Chicago](https://chronicle.uchicago.edu/071018/political-feeling.shtml), set up in the early 2000s, this project begins from the premise that our feelings, particularly those which may feel difficult to express, are not entirely personal or individual but have a wider social and political significance. 
+Inspired by [Feel Tank Chicago](https://chronicle.uchicago.edu/071018/political-feeling.shtml) from the early 2000s, this project begins from the premise that our feelings, particularly those which may feel difficult to express, are not entirely personal or individual but have a wider social and political significance. Similar to the consciousness-raising groups of 1960s and 70s feminists in the UK and US, the Feel Tank offers a forum to express, 
 
 The Feel Tank is an experiment in reflecting and exploring the complexity, ambivalence, and perhaps nonsensical nature of how we feel. By embracing and expressing feelings which may not otherwise be explored collectively, the aim is to better understand the workings of oppressive systems and position feelings as potential sites for political awareness and collective mobilisation.
 
