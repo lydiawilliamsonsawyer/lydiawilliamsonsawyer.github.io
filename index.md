@@ -23,4 +23,4 @@ Digital technologies. I am interested in the processes through which discourses 
 
 Alternative, non-institutional learning. I am passionate about accessible, participatory, and non-hierarchical forms of education. I engage with this interest through working at Kairos Counter-Club and as a member of the organising committee for AntiUniversity.
 
-Community living. I am drawn to alternative forms of community living and have lived and volunteering at various communities, co-housing projects, and ecovillages in the UK and Europe. The benefits of Nonviolent Communication for building and sustaining communities is a particular interest.
+Community living. I am drawn to alternative forms of community living and have lived and volunteered at various communities, co-housing projects, and ecovillages in the UK and Europe. The role of Nonviolent Communication for building and sustaining communities is a particular interest.
