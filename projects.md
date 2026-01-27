@@ -10,7 +10,7 @@ The Feel Tank offers a space to express, reflect on, and politicise the complexi
 
 I am particularly interested in using the Feel Tank form to explore incongruent feelings - ambivalence, dissatisfaction, disappointment, confusion, despair, uneasiness - which I believe we lack, in the UK, an adequate societal infrarstructure to politically engage with. Self-help and therapy, if available, may be useful tools for dealing with incongruent feelings, but I believe that the process of collectively exploring feelings which do not fit into dominant cultural paradigms can be politically mobilising and a meeans to feel beyond what is deemed possible. 
 
-The last Feel Tank I held was in October 2025, as part of Anti-University Festival, during which a group of 14 of us explored ambivalent feelings in relation to work, technology, relationships, and well-being. These are some of the reflections from the workshop:
+The last Feel Tank I held was at the MayDay Rooms in October 2025, as part of AntiUniversity Festival, during which a group of 14 of us explored ambivalent feelings in relation to work, technology, relationships, and well-being. These are some of the reflections from the workshop:
 
 <style>
 .slideshow-container {
