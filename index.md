@@ -24,3 +24,5 @@ My main interest is in the intersection between feelings and broader social and 
 **Alternative, non-institutional learning**. I am passionate about accessible, participatory, and non-hierarchical forms of education. I engage with this interest through working at Kairos Counter-Club and as a member of the organising committee for AntiUniversity.
 
 **Community living**. I am drawn to alternative forms of community living and have lived and volunteered at various communities, co-housing projects, and ecovillages in the UK and Europe. The role of Nonviolent Communication for building and sustaining communities is a particular interest.
+
+Books that significantly shaped my thinking: Cruel Optimism by Lauren Berlant; Ways of Being by James Bridle; Mushroom at the End of the World by Anna Tsing; The Promise of Happiness by Sara Ahmed; Post-Growth Living: For an Alternative Hedonism by Kate Soperl Emma Goldman’s essays (various); When Things Fall Apart by Pema Chodron; Minor Detail by Adania Shibli 
