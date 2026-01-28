@@ -4,7 +4,7 @@ layout: default
 
 ## Feel Tank
 
-The Feel Tank begins from the premise that our feelings are socially and historically contingent, as opposed to being entirely personal or biological. As a result, to reflect on and recognise the socio-political significance and our feelings and make sense of them within broader social systems can be a politically generative and mobilising act. 
+The Feel Tank begins from the premise that our feelings are socially and historically contingent, as opposed to being entirely personal or biological. As a result of this, to express on and collectively reflect on the socio-political significance and our feelings and make sense of them in relation broader social systems can be a politically generative and mobilising practice. 
 
 Inspired by the [Feel Tank Chicago](https://chronicle.uchicago.edu/071018/political-feeling.shtml) of the early 2000s, my aim is to reimagine the Feel Tank in response to the unstable and crisis-ridden political conditions of the present day. The Feel Tank counters the individualising logics of late-stage neoliberal capitalism which tell us that our feelings are to be independently managed, worked on, or ‘fixed’, a discourse largely pushed through the self-help industry. But what if our so-called negative feelings, such as hopelessness and despair, were not signs of individual defect or flawed psyches, but grounds for political awareness and mobilisation? 
 
