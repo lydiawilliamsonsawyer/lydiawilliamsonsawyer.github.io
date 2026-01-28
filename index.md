@@ -17,10 +17,10 @@ My workshop facilitation is informed by an interest in disability and accessibil
 
 My main interest is in the intersection between feelings and broader social and political conditions. This is an interest which has led me in many directions, including:
 
-Spirituality and Buddhism. I have spent time living in Buddhist communities and organised retreats with the Triratna Buddhist community on meditation and ecology. In 2024, I was involved in setting up a "Transforming Self and World" group at the London Buddhist Centre which involves regular public events to discuss the applicability of Buddhist teachings to current social and political issues.
+**Spirituality and Buddhism**. I have spent time living in Buddhist communities and organised retreats with the Triratna Buddhist community on meditation and ecology. In 2024, I was involved in setting up a "Transforming Self and World" group at the London Buddhist Centre which involves regular public events to discuss the applicability of Buddhist teachings to current social and political issues.
 
-Digital technologies. I am interested in the processes through which discourses of optimisation, efficiency, and producitivty are culturally mobilised to justify harmful and high-risk technological developments. I have recently written about the dangers of transitioning to a digital cashless economy for the LSE student newspaper, [forthcoming 28 Jan 26].
+**Digital technologies**. I am interested in the processes through which discourses of optimisation, efficiency, and producitivty are culturally mobilised to justify harmful and high-risk technological developments. I have recently written about the dangers of transitioning to a digital cashless economy for the LSE student newspaper, [forthcoming 28 Jan 26].
 
-Alternative, non-institutional learning. I am passionate about accessible, participatory, and non-hierarchical forms of education. I engage with this interest through working at Kairos Counter-Club and as a member of the organising committee for AntiUniversity.
+**Alternative, non-institutional learning**. I am passionate about accessible, participatory, and non-hierarchical forms of education. I engage with this interest through working at Kairos Counter-Club and as a member of the organising committee for AntiUniversity.
 
-Community living. I am drawn to alternative forms of community living and have lived and volunteered at various communities, co-housing projects, and ecovillages in the UK and Europe. The role of Nonviolent Communication for building and sustaining communities is a particular interest.
+**Community living**. I am drawn to alternative forms of community living and have lived and volunteered at various communities, co-housing projects, and ecovillages in the UK and Europe. The role of Nonviolent Communication for building and sustaining communities is a particular interest.
