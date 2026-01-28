@@ -12,7 +12,7 @@ The Feel Tank is a space to feel, reflect on, and come together in response to t
 
 I am particularly interested in using the Feel Tank to explore incongruent and ambivalent feelings, those for which we do not inherit a cultural ‘script’ to make sense of. This focus is inspired by Feel Tank Chicago member Lauren Berlant’s work on the political possibilities of an ambivalence, and how ambivalent feelings stem from tensions between learned commitments to conventional ideals combined with the felt recognition of disappointment stemming from their realisation. At a critical point of social transformation, the Feel Tank is an invitation to sit with what does not make sense under current social systems and paradigms, in the hope that doing so will allow us to feel the possibility of a new world.
 
-The last Feel Tank I held was at the MayDay Rooms in October 2025 during which a group of us explored how ambivalence arises in relation to work, technology, relationships, and well-being. These are some photos and reflections from the workshop:
+The last Feel Tank I facilitated was at the MayDay Rooms in October 2025 during which I gave an introduction to the history and values of examining the socio-political nature of feelings and a group of us then explored how ambivalence arises in our lives in relation to work, technology, relationships, and well-being. These are some photos and reflections from the workshop:
 
 <style>
 .slideshow-container {
