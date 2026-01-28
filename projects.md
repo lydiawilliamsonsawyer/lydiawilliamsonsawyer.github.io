@@ -4,13 +4,15 @@ layout: default
 
 ## Feel Tank
 
-Inspired by the early 2000s [Feel Tank Chicago](https://chronicle.uchicago.edu/071018/political-feeling.shtml), the Feel Tank begins from the recognition that our feelings are socially and historically contingent, as opposed to being universal or purely individual or biological. Neoliberal capitalism encourages subjects to embrace the individualising ideals of autonomy and self-optimisation through engaging with what Arlie Hochschild (1979) terms 'emotion work', working to manage our feelings and emotions in order to fit in with and reproduce dominant scripts about how we should feel. This operates as a form of social reproduction. Sara Ahmed's (2010) concept of 'happiness scripts' is also useful to explain the narratives we are sold concerning what feelings are culturally permissible and which feelings are not.
+The Feel Tank begins from the premise that our feelings are socially and historically contingent, as opposed to being entirely personal or biological. As a result, to reflect on and recognise the socio-political significance and our feelings and make sense of them within broader social systems can be a politically generative and mobilising act. 
 
-The Feel Tank offers a space to express, reflect on, and politicise the complexity, ambivalence, and perhaps nonsensical nature of how we feel living in precarious and uncertain times. Similar to the consciousness-raising groups of 1960s and 70s feminists in the UK and US, the Feel Tank aims to enable a better understanding of how oppressive social systems permeate the personal and position feelings as potential sites for political awareness and mobilisation. 
+Inspired by the [Feel Tank Chicago](https://chronicle.uchicago.edu/071018/political-feeling.shtml) of the early 2000s, my aim is to reimagine the Feel Tank in response to the unstable and crisis-ridden political conditions of the present day. The Feel Tank counters the individualising logics of late-stage neoliberal capitalism which tell us that our feelings are to be independently managed, worked on, or ‘fixed’, a discourse largely pushed through the self-help industry. But what if our so-called negative feelings, such as hopelessness and despair, were not signs of individual defect or flawed psyches, but grounds for political awareness and mobilisation? 
 
-I am particularly interested in using the Feel Tank form to explore incongruent feelings - ambivalence, dissatisfaction, disappointment, confusion, despair, uneasiness - which I believe we lack, in the UK, an adequate societal infrarstructure to politically engage with. Self-help and therapy, if available, may be useful tools for dealing with incongruent feelings, but I believe that the process of collectively exploring feelings which do not fit into dominant cultural paradigms can be politically mobilising and a meeans to feel beyond what is deemed possible. 
+The Feel Tank is a space to feel, reflect on, and come together in response to the complex, contradictory and perhaps nonsensical nature of how we feel living in precarious and uncertain times. Rather than the emphasis being on how we can think and rationalise a better world into existence, the Feel Tank is a space to embrace our complicated feelings in the hopes that by dwelling in what is troubling, contradictory, or nonsensical we can make better sense of how social systems permeate the ‘personal’ and positioning feeling as a political act. In this way, the Feel Tank is similar to the consciousness-raising groups of 1960s and 70s feminists in the UK and US, which sought to politicise women’s personal and private matters. 
 
-The last Feel Tank I held was at the MayDay Rooms in October 2025, as part of AntiUniversity Festival, during which a group of 14 of us explored ambivalent feelings in relation to work, technology, relationships, and well-being. These are some of the reflections from the workshop:
+I am particularly interested in using the Feel Tank to explore incongruent and ambivalent feelings, those for which we do not inherit a cultural ‘script’ to make sense of. This focus is inspired by Feel Tank Chicago member Lauren Berlant’s work on the political possibilities of an ambivalence, and how ambivalent feelings stem from tensions between learned commitments to conventional ideals combined with the felt recognition of disappointment stemming from their realisation. At a critical point of social transformation, the Feel Tank is an invitation to sit with what does not make sense under current social systems and paradigms, in the hope that doing so will allow us to feel the possibility of a new world.
+
+The last Feel Tank I held was at the MayDay Rooms in October 2025 during which a group of us explored how ambivalence arises in relation to work, technology, relationships, and well-being. These are some photos and reflections from the workshop:
 
 <style>
 .slideshow-container {
@@ -120,14 +122,3 @@ function changeSlide(n) {
 
 If you also share this interest, feel free to email me as I am keen to chat with fellow feel-ers. 
 
-## Wired Feelings
-
-Building on explorations with the Feel Tank, Wired Feelings applies the consciousness-raising framework to interrogate affective entanglements with digital technologies. I am interested in examining how these technologies mediate and shape our feelings, with the aim of critically assessing how state and corporate actors use technologies to monitor, manipulate, and commodity feelings.
-
-I am keen to explore the following questions:
-
-How are our feelings mediated through algorithmically structured digital platforms?  
-What role does this mediation play in the broader shift towards tech-authoritarianism? 
-What is the impact on digital activism when our emotions and feelings are mediated via social media platforms?
-
-<iframe src="/wired-feelings-mindmap.html" style="width: 100%; height: 520px; border: none;"></iframe>
