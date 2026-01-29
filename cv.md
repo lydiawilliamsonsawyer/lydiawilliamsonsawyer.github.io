@@ -10,7 +10,7 @@ Awarded distinction in first year
 
 **University of Cambridge, Sidney Sussex College** — 2017-2020  
 First-Class Honours BA in Human, Social, and Political Sciences  
-Awarded James Johnson Scholarship for high ranking in the Order of Merit
+Awarded James Johnson Scholarship for high ranking in the Order of Merit  
 Awarded Travel Grant for overseas research
 
 ## Work
