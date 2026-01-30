@@ -9,7 +9,7 @@ I am a workshop facilitator and writer. I design and lead workshops for particip
 
 * <a href="https://festival.antiuniversity.org/event/$8Yfobg5XStkIUuuiCme1G_adLSoasuJB7DsFzcRf-Zg" target="_blank">Feel Tank: On Ambivalence, Dissatisfaction and Disappointment</a> as part of AntiUniversity Festival 2025
 * Critical Hedonism(s): On the Politics of Desire at <a href="https://www.altshiftfestival.org/" target="_blank">Alt Shift Festival 2025</a>
-* Queering Happiness as part of the Queer Utopias reading group at the London Night Cafe 2025
+* Queering Happiness as part of the Queer Utopias reading group 2025
 
 Upcoming: Buddhism and Desire discussion co-facilitated with Eric Wycoff Rogers at the London Night Cafe E1 7EZ 6.30pm 10 March 2026 [sign-up link coming soon]
 
