@@ -21,7 +21,7 @@ My main interest is in the intersection between feelings and broader social and 
 
 **Spirituality and Buddhism**. I have spent time living in Buddhist communities and organised retreats with the Triratna Buddhist community on meditation and ecology. In 2024, I was involved in setting up a "Transforming Self and World" group at the London Buddhist Centre which involves regular public events to discuss the applicability of Buddhist teachings to current social and political issues.  
 
-**Digital technologies**. I am interested in the processes through which discourses of optimisation, efficiency, and productivity are culturally mobilised to justify harmful and high-risk technological developments. I have recently written about the dangers of transitioning to a digital cashless economy for the LSE student newspaper, [forthcoming Jan 2026]. In addition, I am interested in the development of artificial emotional intelligence and inspired by the work of Hirofumi Katsuno and Daniel White who explore human-robot relations from an affective perspective.
+**Digital technologies**. I am interested in the processes through which discourses of optimisation, efficiency, and productivity are culturally mobilised to justify harmful and high-risk technological developments. I have recently written about the dangers of transitioning to a digital cashless economy for the LSE student newspaper, [forthcoming Jan 2026]. 
 
 **Alternative, non-institutional learning**. I am passionate about accessible, participatory, and non-hierarchical forms of education. I engage with this interest through working at Kairos Counter-Club and as a member of the organising committee for AntiUniversity.
 
