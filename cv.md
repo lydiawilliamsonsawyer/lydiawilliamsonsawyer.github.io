@@ -19,7 +19,7 @@ Awarded Travel Grant for overseas research
 I am writing an academic glossary for a project on disability-centred approaches to sociological research.
 
 **Web, Admin, and Events, Kairos Counter-Club** — November 2025-present  
-I provide venue setup and event support for talks and workshops exploring radical ideas for social and cultural change. I also manage email correspondence and website updates.
+I provide venue setup and event support for talks and workshops exploring radical ideas for social and cultural change. I also manage emails and back-end admin.
 
 **Digital Accessibility Workshop Co-designer, LSE Eden Centre** — March 2025-May 2025  
 Co-designed an immersive digital accessibility workshop for LSE staff and academics, contributing lived experience insights and iterative feedback to improve digital accessibility and inclusion.
