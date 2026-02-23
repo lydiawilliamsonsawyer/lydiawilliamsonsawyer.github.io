@@ -13,7 +13,7 @@ I am a workshop facilitator and researcher exploring the socio-political nature 
 
 ## Upcoming: 
 
-"Escaping McMindfulness - On the commodification of cravings and their cures" at the London Night Cafe E1 7EZ 10 March 2026 6.30-9pm. [Sign up link](luma.com/ioehgo9j)
+Escaping McMindfulness: On the Commodification of Craving at the London Night Cafe, E1 7EZ. 10 March 2026 6.30-9pm. [Sign up link](luma.com/ioehgo9j)
 
 ## Current interests
 
