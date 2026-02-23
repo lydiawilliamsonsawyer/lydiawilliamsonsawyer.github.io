@@ -12,8 +12,7 @@ I am a workshop facilitator and researcher exploring the socio-political nature 
 * Queering Happiness as part of the Queer Utopias reading group 2025
 
 ## Upcoming: 
-
-Escaping McMindfulness: On the Commodification of Craving at the London Night Cafe, E1 7EZ. 10 March 2026 6.30-9pm. [Sign up link](luma.com/ioehgo9j)
+Escaping McMindfulness: On the Commodification of Craving at the London Night Cafe, E1 7EZ. 10 March 2026 6.30-9pm. [Sign up link](luma.com/ioehgo9j) 
 
 ## Current interests
 
