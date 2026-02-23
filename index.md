@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="intro-text">
-I am a workshop facilitator and writer. I design and lead workshops for participants to explore their feelings, desires, and emotions in relation to social and political contexts.
+I am a workshop facilitator and researcher exploring the socio-political nature of feelings, desires, and emotions.
 </div>
 
 ## Examples of workshops I have led:
@@ -11,11 +11,9 @@ I am a workshop facilitator and writer. I design and lead workshops for particip
 * Critical Hedonism(s): On the Politics of Desire at <a href="https://www.altshiftfestival.org/" target="_blank">Alt Shift Festival 2025</a>
 * Queering Happiness as part of the Queer Utopias reading group 2025
 
-**Upcoming**: 
+## Upcoming: 
 
-* "Escaping McMindfulness - On the commodification of cravings and their cures" at the London Night Cafe E1 7EZ 6.30pm 10 March 2026. [Sign up link](luma.com/ioehgo9j)
-
-My workshop facilitation is informed by an interest in disability and accessibility. I recently co-designed an immersive digital accessibility workshop for LSE staff and academics at the Eden Centre for Education Enhancement, and previously worked as a Campaigns Officer at the Royal National Institute of Blind People where I ran a series of team workshops on understanding sight loss through an intersectional lens.
+* 10 March 2026 6.30-9pm "Escaping McMindfulness - On the commodification of cravings and their cures" at the London Night Cafe E1 7EZ. [Sign up link](luma.com/ioehgo9j)
 
 ## Current interests
 
@@ -26,6 +24,8 @@ My main interest is in the intersection between feelings and broader social and 
 **Digital technologies**. I am interested in the processes through which discourses of optimisation, efficiency, and productivity are culturally mobilised to justify harmful and high-risk technological developments. I have recently written about [the dangers of transitioning to a digital cashless economy](https://thebeaverlse.co.uk/what-are-the-costs-of-a-cashless-future/). 
 
 **Alternative, non-institutional learning**. I am passionate about accessible, participatory, and non-hierarchical forms of education. I engage with this interest through working at Kairos Counter-Club and as a member of the organising committee for AntiUniversity.
+
+**Disability justice**. I recently co-designed an immersive digital accessibility workshop for LSE staff and academics at the Eden Centre for Education Enhancement, and ran a series of workshops on understanding sight loss through an intersectional lens in my previour role as Campaigns Officer at the Royal National Institute of Blind People.
 
 **Community living**. I am drawn to alternative forms of community living and have lived and volunteered at various communities, co-housing projects, and ecovillages in the UK and Europe. The role of Nonviolent Communication for building and sustaining communities is a particular interest.
 
