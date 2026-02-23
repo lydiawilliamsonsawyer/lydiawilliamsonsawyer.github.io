@@ -2,17 +2,6 @@
 layout: default
 ---
 
-## Education
-
-**The London School of Economics and Political Science** — 2024-2026  
-MSc Culture and Society (part-time)  
-Awarded distinction in first year
-
-**University of Cambridge, Sidney Sussex College** — 2017-2020  
-First-Class Honours BA in Human, Social, and Political Sciences  
-Awarded James Johnson Scholarship for high ranking in the Order of Merit  
-Awarded Travel Grant for overseas research
-
 ## Work
 
 **Contributing Writer, Cripping Methods Lab** — January 2026  
@@ -30,3 +19,14 @@ During my time at the RNIB, my team was awarded <a href="https://www.linkedin.co
 
 **Assistant Campaigns Officer, Royal National Institute of Blind People** — November 2021-May 2022  
 Managed public enquiries, assisted with parliamentary events, and maintained RNIB Campaigns social media channels.
+
+## Education
+
+**The London School of Economics and Political Science** — 2024-2026  
+MSc Culture and Society (part-time)  
+Awarded distinction in first year
+
+**University of Cambridge, Sidney Sussex College** — 2017-2020  
+First-Class Honours BA in Human, Social, and Political Sciences  
+Awarded James Johnson Scholarship 
+Awarded Travel Grant for overseas research
