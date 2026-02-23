@@ -11,7 +11,9 @@ I am a workshop facilitator and writer. I design and lead workshops for particip
 * Critical Hedonism(s): On the Politics of Desire at <a href="https://www.altshiftfestival.org/" target="_blank">Alt Shift Festival 2025</a>
 * Queering Happiness as part of the Queer Utopias reading group 2025
 
-**Upcoming**: Buddhism and Desire discussion co-facilitated with Eric Wycoff Rogers at the London Night Cafe E1 7EZ 6.30pm 10 March 2026 [sign-up link coming soon]
+**Upcoming**: 
+
+* "Escaping McMindfulness - On the commodification of cravings and their cures" at the London Night Cafe E1 7EZ 6.30pm 10 March 2026. [Sign up link](luma.com/ioehgo9j)
 
 My workshop facilitation is informed by an interest in disability and accessibility. I recently co-designed an immersive digital accessibility workshop for LSE staff and academics at the Eden Centre for Education Enhancement, and previously worked as a Campaigns Officer at the Royal National Institute of Blind People where I ran a series of team workshops on understanding sight loss through an intersectional lens.
 
