@@ -122,5 +122,4 @@ function changeSlide(n) {
 }
 </script>
 
-If you also share this interest, feel free to email me as I am keen to chat with fellow feel-ers. 
 
