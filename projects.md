@@ -8,7 +8,7 @@ I'm planning to conduct research into the use of chatbots in spiritual communiti
 
 ## Feel Tank on Ambivalence
 
-The Feel Tank begins from the premise that our feelings are socially and historically contingent, as opposed to being entirely personal or biological. As a result of this, to express on and collectively reflect on the socio-political significance and our feelings and make sense of them in relation broader social systems can be a politically generative and mobilising practice. 
+The Feel Tank begins from the premise that our feelings are socially and historically contingent, as opposed to personal or biological. As a result of this, to express on and collectively reflect on the socio-political significance and our feelings and make sense of them in relation broader social systems can be a politically generative and mobilising practice. 
 
 Inspired by the [Feel Tank Chicago](https://chronicle.uchicago.edu/071018/political-feeling.shtml) of the early 2000s, this project reimagines the Feel Tank in response to the unstable and insecure conditions of the current day. The Feel Tank counters the individualising logics of late-stage neoliberal capitalism which tell us that our feelings are to be privately managed, worked on, or ‘fixed’. But what if our so-called negative feelings, such as hopelessness and despair, were not signs of individual defect or flawed psyches, but grounds for political awareness and mobilisation? The Feel Tank is a space to feel, reflect on, and come together in response to the complex, contradictory and perhaps nonsensical nature of living in precarious and uncertain times. 
 
