@@ -2,17 +2,19 @@
 layout: default
 ---
 
-## Feel Tank
+## Buddhism and AI
+
+I'm planning to conduct research into the use of chatbots in spiritual communities. This project is in the early stages. If anyone is interested in this topic, please get in touch. 
+
+## Feel Tank on Ambivalence
 
 The Feel Tank begins from the premise that our feelings are socially and historically contingent, as opposed to being entirely personal or biological. As a result of this, to express on and collectively reflect on the socio-political significance and our feelings and make sense of them in relation broader social systems can be a politically generative and mobilising practice. 
 
-Inspired by the [Feel Tank Chicago](https://chronicle.uchicago.edu/071018/political-feeling.shtml) of the early 2000s, this project reimagines the Feel Tank in response to the unstable and insecure conditions of the current day. The Feel Tank counters the individualising logics of late-stage neoliberal capitalism which tell us that our feelings are to be privately managed, worked on, or ‘fixed’, a discourse largely promoted through the self-help industry. But what if our so-called negative feelings, such as hopelessness and despair, were not signs of individual defect or flawed psyches, but grounds for political awareness and mobilisation? 
+Inspired by the [Feel Tank Chicago](https://chronicle.uchicago.edu/071018/political-feeling.shtml) of the early 2000s, this project reimagines the Feel Tank in response to the unstable and insecure conditions of the current day. The Feel Tank counters the individualising logics of late-stage neoliberal capitalism which tell us that our feelings are to be privately managed, worked on, or ‘fixed’. But what if our so-called negative feelings, such as hopelessness and despair, were not signs of individual defect or flawed psyches, but grounds for political awareness and mobilisation? The Feel Tank is a space to feel, reflect on, and come together in response to the complex, contradictory and perhaps nonsensical nature of living in precarious and uncertain times. 
 
-The Feel Tank is a space to feel, reflect on, and come together in response to the complex, contradictory and perhaps nonsensical nature of how we feel living in precarious and uncertain times. Rather than emphasising how we can think and rationalise our way into a better world, the Feel Tank invites us to embrace our complicated feelings. This is done in the hope that by dwelling in what is troubling, contradictory, or nonsensical we can make better sense of how social systems permeate the personal and position feelings as politically significant. In this way, the Feel Tank is similar to the consciousness-raising groups of 1960s and 70s feminists in the UK and US, which sought to politicise women’s personal and private matters as a form of resistance. 
+I am particularly interested in using the Feel Tank framework to explore incongruent and ambivalent feelings, for which we do not inherit a cultural ‘script’ to make sense of. This focus is inspired by Feel Tank Chicago member Lauren Berlant’s work on the political possibilities of  ambivalence. They write how ambivalence stem froms the tension between learned commitments to conventional ideals combined with the felt recognition of disappointment and disenchantment which stems from the failure of these ideals to truly deliver a 'good life'. 
 
-I am particularly drawn to using the Feel Tank as a means to explore **incongruent and ambivalent feelings**, for which we do not inherit a cultural ‘script’ to make sense of. This focus is inspired by Feel Tank Chicago member Lauren Berlant’s work on the political possibilities of  ambivalence. They write how ambivalence stem froms the tension between learned commitments to conventional ideals combined with the felt recognition of disappointment and disenchantment which stems from the failure of these ideals to truly deliver a 'good life'. At a critical point of social transformation, the Feel Tank is an invitation to sit with what does not make sense under current social systems and paradigms, in the hope that doing so will allow us to feel the possibility of a new world.
-
-The last Feel Tank I facilitated was at the MayDay Rooms in October 2025 during which I gave an introduction to the history and values of examining the socio-political nature of feelings and a group of us then explored how ambivalence arises in our lives in relation to work, technology, relationships, and well-being. These are some photos and reflections from the workshop:
+I facilitated at Feel Tank at the MayDay Rooms in October 2025, during which I gave an introduction to the history and values of examining the socio-political nature of feelings and we then explored how ambivalence arises in our lives in relation to work, technology, relationships, and well-being. These are some photos and reflections from the workshop:
 
 <style>
 .slideshow-container {
