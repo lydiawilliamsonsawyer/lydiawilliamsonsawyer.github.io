@@ -25,9 +25,9 @@ My main interest is in the intersection between feelings and broader social and 
 
 **Alternative, non-institutional learning**. I am passionate about accessible, participatory, and non-hierarchical forms of education. I engage with this interest through working at Kairos Counter-Club and as a member of the organising committee for AntiUniversity.
 
-**Disability justice**. I recently co-designed an immersive digital accessibility workshop for LSE staff and academics at the Eden Centre for Education Enhancement, and ran a series of workshops on understanding sight loss through an intersectional lens in my previour role as Campaigns Officer at the Royal National Institute of Blind People.
+**Disability justice**. I recently co-designed an immersive digital accessibility workshop for LSE staff and academics at the Eden Centre for Education Enhancement, and ran a series of workshops on understanding sight loss through an intersectional lens in my previous role as Campaigns Officer at the Royal National Institute of Blind People.
 
-**Community living**. I am drawn to alternative forms of community living and have lived and volunteered at various communities, co-housing projects, and ecovillages in the UK and Europe. The role of Nonviolent Communication for building and sustaining communities is a particular interest.
+**Community living**. I am drawn to alternative forms of community living and have lived and volunteered at various communities, co-housing projects, and ecovillages in the UK and Europe. The use of non-violent communication in communities is a particular interest.
 
 If you share any of these interests, feel free to email me as I enjoy chatting and hearing other people's perspectives.
 
