@@ -5,14 +5,15 @@ layout: default
 I am a workshop facilitator and researcher exploring the socio-political nature of feelings, desires, and emotions.
 </div>
 
-## Examples of workshops I have led:
+## Upcoming:
+
+Escaping McMindfulness: On the Commodification of Craving at the London Night Cafe, E1 7EZ. 10 March 2026 6.30-9pm. [Sign up link](luma.com/ioehgo9j) 
+
+## Past workshops I have led
 
 * <a href="https://festival.antiuniversity.org/event/$8Yfobg5XStkIUuuiCme1G_adLSoasuJB7DsFzcRf-Zg" target="_blank">Feel Tank: On Ambivalence, Dissatisfaction and Disappointment</a> as part of AntiUniversity Festival 2025
 * Critical Hedonism(s): On the Politics of Desire at <a href="https://www.altshiftfestival.org/" target="_blank">Alt Shift Festival 2025</a>
 * Queering Happiness as part of the Queer Utopias reading group 2025
-
-## Upcoming: 
-Escaping McMindfulness: On the Commodification of Craving at the London Night Cafe, E1 7EZ. 10 March 2026 6.30-9pm. [Sign up link](luma.com/ioehgo9j) 
 
 ## Current interests
 
