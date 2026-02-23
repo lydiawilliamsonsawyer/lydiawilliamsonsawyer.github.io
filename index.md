@@ -29,6 +29,4 @@ My main interest is in the intersection between feelings and broader social and 
 
 **Community living**. I am drawn to alternative forms of community living and have lived and volunteered at various communities, co-housing projects, and ecovillages in the UK and Europe. The use of non-violent communication in communities is a particular interest.
 
-If you share any of these interests, feel free to email me as I enjoy chatting and hearing other people's perspectives.
-
-Books that significantly impacted me: Cruel Optimism by Lauren Berlant; Ways of Being by James Bridle; Mushroom at the End of the World by Anna Tsing; The Promise of Happiness and Queer Phenomenology by Sara Ahmed; Post-Growth Living: For an Alternative Hedonism by Kate Soper; Emma Goldman’s essays (various); Formations Of The Secular by Talal Asad; When Things Fall Apart by Pema Chodron; Minor Detail by Adania Shibli 
+If you share any of these interests, feel free to email me as I enjoy talking and hearing other people's perspectives.
