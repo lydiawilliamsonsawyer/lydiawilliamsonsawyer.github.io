@@ -18,8 +18,8 @@ Awarded Travel Grant for overseas research
 **Contributing Writer, Cripping Methods Lab** — January 2026  
 I am writing an academic glossary for a project on disability-centred approaches to sociological research.
 
-**Event Staff, Kairos Counter-Club** — November 2025-present  
-Provide venue setup and event support for talks and workshops exploring radical ideas for social and cultural change.
+**Web, Admin, and Events, Kairos Counter-Club** — November 2025-present  
+I provide venue setup and event support for talks and workshops exploring radical ideas for social and cultural change. I also manage email correspondence and website updates.
 
 **Digital Accessibility Workshop Co-designer, LSE Eden Centre** — March 2025-May 2025  
 Co-designed an immersive digital accessibility workshop for LSE staff and academics, contributing lived experience insights and iterative feedback to improve digital accessibility and inclusion.
