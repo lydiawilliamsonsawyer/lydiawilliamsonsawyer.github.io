@@ -100,6 +100,457 @@
         
         /* Hero Section */
         .hero {
+            margin-top: 0;
+            padding-top: 9rem;
+            padding-bottom: 3rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            background: linear-gradient(to bottom, var(--bg-cream) 0%, var(--bg-light) 100%);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        
+        .hero .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            font-size: 3.8rem;
+            font-weight: 600;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            color: var(--primary-dark);
+            letter-spacing: -0.5px;
+        }
+        
+        .hero .subtitle {
+            font-size: 1.4rem;
+            color: var(--text-secondary);
+            margin-bottom: 0;
+            font-style: italic;
+            line-height: 1.6;
+        }
+        
+        .hero .description {
+            font-size: 1.15rem;
+            color: var(--text-primary);
+            margin-bottom: 2rem;
+            max-width: 700px;
+        }
+        
+        /* Featured Event */
+        .featured-event {
+            padding: 3rem 2rem;
+            background: var(--bg-light);
+        }
+        
+        .featured-event .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .featured-event .event-box {
+            border: 2px solid var(--border-subtle);
+            padding: 1.5rem;
+            background: white;
+        }
+        
+        .featured-event .label {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.65rem;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 0.6rem;
+            font-weight: 600;
+        }
+        
+        .featured-event h2 {
+            font-size: 1.5rem;
+            line-height: 1.3;
+            margin-bottom: 0.6rem;
+            font-weight: 600;
+            color: var(--primary-dark);
+        }
+        
+        .featured-event .event-meta {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+        
+        .featured-event .cta-button {
+            display: inline-block;
+            padding: 0.6rem 1.5rem;
+            background: var(--primary-dark);
+            color: white;
+            text-decoration: none;
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 500;
+            border-radius: 3px;
+            transition: all 0.3s ease;
+            letter-spacing: 0.3px;
+        }
+        
+        .featured-event .cta-button:hover {
+            background: var(--accent);
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        /* Main Content Sections */
+        section {
+            padding: 3rem 2rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        
+        section .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            color: var(--primary-dark);
+        }
+        
+        section h3 {
+            font-size: 1.5rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        
+        section p {
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+        }
+        
+        ul.workshop-list {
+            list-style: none;
+            margin: 1.5rem 0;
+        }
+        
+        ul.workshop-list li {
+            padding: 0.6rem 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        
+        ul.workshop-list li:last-child {
+            border-bottom: none;
+        }
+        
+        ul.workshop-list a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        
+        ul.workshop-list a:hover {
+            color: var(--primary-dark);
+        }
+        
+        /* Interest Areas */
+        .interest-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+            margin-top: 2rem;
+        }
+        
+        .interest-item h4 {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+            color: var(--accent);
+            letter-spacing: 0.3px;
+        }
+        
+        .interest-item p {
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+        }
+        
+        .interest-item a {
+            color: var(--accent);
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 2px;
+        }
+        
+        .interest-item a:hover {
+            color: var(--primary-dark);
+        }
+        
+        /* Footer */
+        footer {
+            padding: 3rem 2rem;
+            background: var(--bg-cream);
+            text-align: center;
+        }
+        
+        footer p {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav ul {
+                gap: 1rem;
+            }
+            
+            nav a {
+                font-size: 0.8rem;
+            }
+            
+            .hero {
+                padding: 5rem 1.5rem 4rem;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero .subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .featured-event h2 {
+                font-size: 1.7rem;
+            }
+            
+            section {
+                padding: 3rem 1.5rem;
+            }
+            
+            section h2 {
+                font-size: 1.6rem;
+            }
+            
+            .interest-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="/" class="logo"></a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/cv/">CV</a></li>
+                <li><a href="/projects/">Projects</a></li>
+                <li><a href="mailto:lydiawsawyer@protonmail.com" class="email-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Lydia Williamson-Sawyer</h1>
+            <p class="subtitle">Workshop facilitator and researcher exploring the socio-political nature of feelings, desires, and emotions.</p>
+        </div>
+    </section>
+
+    <!-- Featured Event -->
+    <section class="featured-event">
+        <div class="container">
+            <div class="event-box">
+                <div class="label">Upcoming Event</div>
+                <h2>Escaping McMindfulness: On the Commodification of Craving</h2>
+                <p class="event-meta">Discussion at the London Night Cafe • 10 March 2026, 6:30 PM</p>
+                <a href="https://luma.com/ioehgo9j" class="cta-button" target="_blank">Sign Up</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Past Workshops -->
+    <section>
+        <div class="container">
+            <h2>Past Workshops</h2>
+            <ul class="workshop-list">
+                <li>
+                    <a href="https://festival.antiuniversity.org/event/$8Yfobg5XStkIUuuiCme1G_adLSoasuJB7DsFzcRf-Zg" target="_blank">Feel Tank: On Ambivalence, Dissatisfaction and Disappointment</a><br>
+                    <span style="color: var(--text-secondary); font-size: 0.95rem;">AntiUniversity Festival 2025</span>
+                </li>
+                <li>
+                    Critical Hedonism(s): On the Politics of Desire<br>
+                    <span style="color: var(--text-secondary); font-size: 0.95rem;"><a href="https://www.altshiftfestival.org/" target="_blank">Alt Shift Festival 2025</a></span>
+                </li>
+                <li>
+                    Queering Happiness<br>
+                    <span style="color: var(--text-secondary); font-size: 0.95rem;">Queer Utopias reading group 2025</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Current Interests -->
+    <section>
+        <div class="container">
+            <h2>Current Interests</h2>
+            <p>My main interest is in the intersection between feelings and broader social and political conditions, see <a href="https://lydiawsawyer.com/projects/" style="color: var(--accent); text-decoration: underline;">projects page</a>. This is an interest which has led me in many directions, including:</p>
+            
+            <div class="interest-grid">
+                <div class="interest-item">
+                    <h4>Spirituality and Buddhism</h4>
+                    <p>I have spent time living in Buddhist communities and organised retreats with the Triratna Buddhist community on meditation and ecology. In 2024, I was involved in setting up a "Transforming Self and World" group at the London Buddhist Centre which involves regular public events to discuss the applicability of Buddhist teachings to current social and political issues.</p>
+                </div>
+                
+                <div class="interest-item">
+                    <h4>Digital Technologies</h4>
+                    <p>I am interested in the processes through which discourses of optimisation, efficiency, and productivity are culturally mobilised to justify harmful and high-risk technological developments. I have recently written about <a href="https://thebeaverlse.co.uk/what-are-the-costs-of-a-cashless-future/">the dangers of transitioning to a digital cashless economy</a>.</p>
+                </div>
+                
+                <div class="interest-item">
+                    <h4>Alternative, Non-Institutional Learning</h4>
+                    <p>I am passionate about accessible, participatory, and non-hierarchical forms of education. I engage with this interest through working at Kairos Counter-Club and as a member of the organising committee for AntiUniversity.</p>
+                </div>
+                
+                <div class="interest-item">
+                    <h4>Disability Justice</h4>
+                    <p>I recently co-designed an immersive digital accessibility workshop for LSE staff and academics at the Eden Centre for Education Enhancement, and ran a series of workshops on understanding sight loss through an intersectional lens in my previous role as Campaigns Officer at the Royal National Institute of Blind People.</p>
+                </div>
+                
+                <div class="interest-item">
+                    <h4>Community Living</h4>
+                    <p>I am drawn to alternative forms of community living and have lived and volunteered at various communities, co-housing projects, and ecovillages in the UK and Europe. The use of non-violent communication in communities is a particular interest.</p>
+                </div>
+            </div>
+            
+            <p style="margin-top: 2.5rem;">If you share any of these interests, feel free to email me as I enjoy talking and hearing other people's perspectives.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Lydia Williamson-Sawyer • <a href="mailto:lydiawsawyer@protonmail.com">lydiawsawyer@protonmail.com</a></p>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lydia Williamson-Sawyer | Critical Thinker & Workshop Facilitator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-dark: #1a1a1a;
+            --secondary-dark: #2d2d2d;
+            --accent: #2d5a7b;
+            --text-primary: #1a1a1a;
+            --text-secondary: #4a4a4a;
+            --bg-light: #fafaf8;
+            --bg-cream: #f5f3ef;
+            --border-subtle: #e0ddd6;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Crimson Text', serif;
+            font-size: 19px;
+            line-height: 1.7;
+            color: var(--text-primary);
+            background: var(--bg-light);
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(250, 250, 248, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+            z-index: 1000;
+            padding: 1.2rem 0;
+        }
+        
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        nav .logo {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+            align-items: center;
+        }
+        
+        nav a {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            letter-spacing: 0.3px;
+        }
+        
+        nav a:hover {
+            color: var(--accent);
+        }
+        
+        nav .email-link {
+            padding: 0.5rem 1.2rem;
+            background: var(--primary-dark);
+            color: white;
+            border-radius: 3px;
+            font-weight: 500;
+        }
+        
+        nav .email-link:hover {
+            background: var(--accent);
+            color: white;
+        }
+        
+        /* Hero Section */
+        .hero {
             margin-top: 80px;
             padding: 8rem 2rem 6rem;
             background: linear-gradient(to bottom, var(--bg-cream) 0%, var(--bg-light) 100%);
