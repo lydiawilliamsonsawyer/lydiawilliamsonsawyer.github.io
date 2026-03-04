@@ -171,6 +171,388 @@
         
         /* Slideshow */
         .slideshow-container {
+            max-width: 900px;
+            position: relative;
+            margin: 40px auto;
+            height: 600px;
+            background: transparent;
+        }
+        
+        .slide {
+            display: none;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .slide.active {
+            display: flex;
+        }
+        
+        .slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: auto;
+            padding: 20px;
+            color: white;
+            background-color: rgba(0,0,0,0.5);
+            font-weight: bold;
+            font-size: 30px;
+            border: none;
+            user-select: none;
+            z-index: 10;
+        }
+        
+        .next {
+            right: 0;
+        }
+        
+        .prev {
+            left: 0;
+        }
+        
+        .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+        }
+        
+        /* Footer */
+        footer {
+            padding: 3rem 2rem;
+            background: var(--bg-cream);
+            text-align: center;
+        }
+        
+        footer p {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav ul {
+                gap: 1rem;
+            }
+            
+            nav a {
+                font-size: 0.8rem;
+            }
+            
+            .hero {
+                padding: 6rem 1.5rem 3rem;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            main {
+                padding: 2rem 1.5rem;
+            }
+            
+            h2 {
+                font-size: 1.6rem;
+            }
+            
+            .slideshow-container {
+                height: 350px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="/" class="logo"></a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/cv/">CV</a></li>
+                <li><a href="/projects/">Projects</a></li>
+                <li><a href="mailto:lydiawsawyer@protonmail.com" class="email-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Projects</h1>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Buddhism and AI -->
+        <section class="project">
+            <h2>Buddhism and AI</h2>
+            <p>I'm planning to conduct research into the use of chatbots in spiritual communities. This project is in the early stages. If anyone is interested in this topic, please get in touch.</p>
+        </section>
+
+        <!-- Feel Tank -->
+        <section class="project">
+            <h2>Feel Tank on Ambivalence</h2>
+            
+            <p>The Feel Tank begins from recognising that our feelings are socially and politically significant, as opposed to entirely personal or biological. As a result of this, to collectively express and make sense of our feelings in relation broader social systems can be a politically generative and mobilising act.</p>
+            
+            <p>Inspired by the <a href="https://chronicle.uchicago.edu/071018/political-feeling.shtml" target="_blank">Feel Tank Chicago</a> of the early 2000s, this project reimagines the Feel Tank in response to the unstable and insecure conditions of the current day. The Feel Tank counters the individualising logics of late-stage neoliberal capitalism which tell us that our feelings are to be privately managed, worked on, or 'fixed'. Rather than our so-called negative feelings, such as hopelessness and despair, being signs of individual defect, what if they were grounds for political awareness and mobilisation? The Feel Tank is a space to feel, reflect on, and come together in response to the complex, contradictory and perhaps nonsensical nature of living and feeling in precarious and uncertain conditions.</p>
+            
+            <p>I am particularly interested in using the Feel Tank framework to explore incongruent and ambivalent feelings, for which we do not inherit a cultural 'script' to make sense of. This focus is inspired by Feel Tank Chicago member Lauren Berlant's work on the political possibilities of ambivalence. They write how ambivalence stem froms the tension between learned commitments to conventional ideals combined with the felt recognition of disappointment and disenchantment which stems from the failure of these ideals to truly deliver a 'good life'.</p>
+            
+            <p>I facilitated at Feel Tank at the MayDay Rooms in October 2025, during which I gave an introduction to the history and value of examining the socio-political nature of feelings. We then explored how ambivalence arises in our lives in relation to work, technology, relationships, and well-being. These are some photos and reflections from the workshop:</p>
+            
+            <!-- Photo Slideshow -->
+            <div class="slideshow-container">
+                <div class="slide active">
+                    <img src="/assets/IMG_8870.jpeg" alt="Workshop photo 1">
+                </div>
+                
+                <div class="slide">
+                    <img src="/assets/IMG_8872.jpeg" alt="Workshop photo 2" style="transform: rotate(270deg);">
+                </div>
+                
+                <div class="slide">
+                    <img src="/assets/IMG_8869.jpeg" alt="Workshop photo 3" style="transform: rotate(90deg);">
+                </div>
+                
+                <div class="slide">
+                    <img src="/assets/IMG_8874.jpeg" alt="Workshop photo 4" style="transform: rotate(90deg);">
+                </div>
+
+                <div class="slide">
+                    <img src="/assets/IMG_8877.jpeg" alt="Workshop photo 5">
+                </div>
+
+                <div class="slide">
+                    <img src="/assets/IMG_8878.jpeg" alt="Workshop photo 6">
+                </div>
+
+                <div class="slide">
+                    <img src="/assets/IMG_8879.jpeg" alt="Workshop photo 7">
+                </div>
+
+                <button class="prev" onclick="changeSlide(-1)">❮</button>
+                <button class="next" onclick="changeSlide(1)">❯</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Lydia Williamson-Sawyer • <a href="mailto:lydiawsawyer@protonmail.com">lydiawsawyer@protonmail.com</a></p>
+    </footer>
+
+    <script>
+        let slideIndex = 0;
+
+        function changeSlide(n) {
+            const slides = document.querySelectorAll('.slide');
+            slides[slideIndex].classList.remove('active');
+            
+            slideIndex += n;
+            
+            if (slideIndex >= slides.length) {
+                slideIndex = 0;
+            }
+            if (slideIndex < 0) {
+                slideIndex = slides.length - 1;
+            }
+            
+            slides[slideIndex].classList.add('active');
+        }
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Lydia Williamson-Sawyer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-dark: #1a1a1a;
+            --secondary-dark: #2d2d2d;
+            --accent: #2d5a7b;
+            --text-primary: #1a1a1a;
+            --text-secondary: #4a4a4a;
+            --bg-light: #fafaf8;
+            --bg-cream: #f5f3ef;
+            --border-subtle: #e0ddd6;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Crimson Text', serif;
+            font-size: 19px;
+            line-height: 1.5;
+            color: var(--text-primary);
+            background: var(--bg-light);
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(250, 250, 248, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+            z-index: 1000;
+            padding: 1.2rem 0;
+        }
+        
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        nav .logo {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+            align-items: center;
+        }
+        
+        nav a {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            letter-spacing: 0.3px;
+        }
+        
+        nav a:hover {
+            color: var(--accent);
+        }
+        
+        nav .email-link {
+            padding: 0.5rem 1.2rem;
+            background: var(--primary-dark);
+            color: white;
+            border-radius: 3px;
+            font-weight: 500;
+        }
+        
+        nav .email-link:hover {
+            background: var(--accent);
+            color: white;
+        }
+        
+        /* Hero Section */
+        .hero {
+            margin-top: 0;
+            padding-top: 9rem;
+            padding-bottom: 4rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            background: linear-gradient(to bottom, var(--bg-cream) 0%, var(--bg-light) 100%);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        
+        .hero .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            font-size: 3.8rem;
+            font-weight: 600;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+            color: var(--primary-dark);
+            letter-spacing: -0.5px;
+        }
+        
+        /* Main Content */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        
+        section.project {
+            margin-bottom: 2.5rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        
+        section.project:last-child {
+            border-bottom: none;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            color: var(--primary-dark);
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+        
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Slideshow */
+        .slideshow-container {
             max-width: 700px;
             position: relative;
             margin: 40px auto;
