@@ -98,6 +98,238 @@
             color: white;
         }
         
+        /* Hero Section (UPDATED) */
+        .hero {
+            margin-top: 0;
+            padding-top: 7rem;        /* reduced from 9rem */
+            padding-bottom: 2.5rem;   /* reduced from 4rem */
+            padding-left: 2rem;
+            padding-right: 2rem;
+            background: linear-gradient(to bottom, var(--bg-cream) 0%, var(--bg-light) 100%);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        
+        .hero .container {
+            max-width: 820px; /* slightly refined width */
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;      /* reduced from 3.8rem */
+            font-weight: 600;
+            line-height: 1.1;
+            margin-bottom: 0.4rem; /* slightly tighter */
+            color: var(--primary-dark);
+            letter-spacing: -0.5px;
+        }
+        
+        /* Main Content */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        
+        section {
+            margin-bottom: 2rem;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1.2rem;
+            font-weight: 600;
+            color: var(--primary-dark);
+            border-bottom: 2px solid var(--border-subtle);
+            padding-bottom: 0.5rem;
+        }
+        
+        .cv-item {
+            margin-bottom: 1.5rem;
+        }
+        
+        .cv-item h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.2rem;
+        }
+        
+        .cv-item .meta {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .cv-item p {
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+        
+        .cv-item ul {
+            margin-left: 1.5rem;
+            margin-bottom: 0.8rem;
+        }
+        
+        .cv-item a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        .cv-item a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Footer */
+        footer {
+            padding: 3rem 2rem;
+            background: var(--bg-cream);
+            text-align: center;
+        }
+        
+        footer p {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav ul {
+                gap: 1rem;
+            }
+            
+            nav a {
+                font-size: 0.8rem;
+            }
+            
+            .hero {
+                padding: 6rem 1.5rem 2rem;
+            }
+            
+            .hero h1 {
+                font-size: 2.3rem;
+            }
+            
+            main {
+                padding: 2rem 1.5rem;
+            }
+            
+            h2 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | Lydia Williamson-Sawyer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-dark: #1a1a1a;
+            --secondary-dark: #2d2d2d;
+            --accent: #2d5a7b;
+            --text-primary: #1a1a1a;
+            --text-secondary: #4a4a4a;
+            --bg-light: #fafaf8;
+            --bg-cream: #f5f3ef;
+            --border-subtle: #e0ddd6;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Crimson Text', serif;
+            font-size: 19px;
+            line-height: 1.5;
+            color: var(--text-primary);
+            background: var(--bg-light);
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(250, 250, 248, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+            z-index: 1000;
+            padding: 1.2rem 0;
+        }
+        
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        nav .logo {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+            align-items: center;
+        }
+        
+        nav a {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            letter-spacing: 0.3px;
+        }
+        
+        nav a:hover {
+            color: var(--accent);
+        }
+        
+        nav .email-link {
+            padding: 0.5rem 1.2rem;
+            background: var(--primary-dark);
+            color: white;
+            border-radius: 3px;
+            font-weight: 500;
+        }
+        
+        nav .email-link:hover {
+            background: var(--accent);
+            color: white;
+        }
+        
         /* Hero Section */
         .hero {
             margin-top: 0;
