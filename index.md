@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="intro-text">
-I am a workshop facilitator and researcher exploring the socio-political nature of feelings, desires, and emotions.
+Workshop facilitator and researcher exploring the socio-political nature of feelings, desires, and emotions.
 </div>
 
 ## Upcoming event: 'Escaping McMindfulness: On the Commodification of Craving' discussion at the London Night Cafe, 10 March 2026 6.30pm. [Sign up link](https://luma.com/ioehgo9j)
