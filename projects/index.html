@@ -227,34 +227,55 @@
             text-decoration: underline;
         }
         
-        /* Responsive */
+        /* ── Mobile ── */
         @media (max-width: 768px) {
+
+            nav {
+                padding: 0.7rem 0;
+            }
+
+            nav .container {
+                padding: 0 1rem;
+            }
+
             nav ul {
-                gap: 1rem;
+                gap: 0.5rem;
             }
-            
+
             nav a {
-                font-size: 0.8rem;
+                font-size: 0.72rem;
+                letter-spacing: 0;
             }
-            
-            .hero {
-                padding: 6rem 1.5rem 3rem;
+
+            nav .email-link {
+                padding: 0.35rem 0.6rem;
+                font-size: 0.72rem;
             }
-            
-            .hero h1 {
-                font-size: 2.5rem;
-            }
-            
+
             main {
-                padding: 2rem 1.5rem;
+                padding: 6.5rem 1.2rem 2rem;
             }
-            
+
+            main > h1 {
+                font-size: 2rem;
+            }
+
             h2 {
                 font-size: 1.6rem;
             }
-            
+
             .slideshow-container {
                 height: 350px;
+                margin: 20px auto;
+            }
+
+            .prev, .next {
+                padding: 12px;
+                font-size: 20px;
+            }
+
+            footer {
+                padding: 1.5rem 1.2rem;
             }
         }
     </style>
