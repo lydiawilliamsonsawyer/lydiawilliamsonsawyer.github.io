@@ -131,68 +131,6 @@
             line-height: 1.4;
         }
         
-        /* Featured Event */
-        .featured-event {
-            padding: 2rem 2rem;
-            background: white;
-        }
-        
-        .featured-event .container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-        
-        .featured-event .event-box {
-            border: 2px solid var(--border-subtle);
-            padding: 1.5rem;
-            background: white;
-        }
-        
-        .featured-event .label {
-            font-family: 'Work Sans', sans-serif;
-            font-size: 0.65rem;
-            letter-spacing: 1.2px;
-            text-transform: uppercase;
-            color: var(--accent);
-            margin-bottom: 0.6rem;
-            font-weight: 600;
-        }
-        
-        .featured-event h2 {
-            font-size: 1.5rem;
-            line-height: 1.3;
-            margin-bottom: 0.6rem;
-            font-weight: 600;
-            color: var(--primary-dark);
-        }
-        
-        .featured-event .event-meta {
-            font-family: 'Work Sans', sans-serif;
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            margin-bottom: 1rem;
-        }
-        
-        .featured-event .cta-button {
-            display: inline-block;
-            padding: 0.6rem 1.5rem;
-            background: var(--primary-dark);
-            color: white;
-            text-decoration: none;
-            font-family: 'Work Sans', sans-serif;
-            font-size: 0.8rem;
-            font-weight: 500;
-            border-radius: 3px;
-            transition: all 0.3s ease;
-            letter-spacing: 0.3px;
-        }
-        
-        .featured-event .cta-button:hover {
-            background: var(--accent);
-            color: white;
-            transform: translateY(-2px);
-        }
-        
         /* Main Content Sections */
         section {
             padding: 2rem 2rem;
@@ -298,7 +236,6 @@
         
         /* ── Mobile ── */
         @media (max-width: 768px) {
-
             nav {
                 padding: 0.8rem 0;
             }
@@ -334,30 +271,6 @@
             .hero .subtitle {
                 font-size: 1.1rem;
                 line-height: 1.5;
-            }
-
-            .featured-event {
-                padding: 1.2rem;
-            }
-
-            .featured-event .event-box {
-                padding: 1.2rem;
-            }
-
-            .featured-event h2 {
-                font-size: 1.25rem;
-            }
-
-            .featured-event .event-meta {
-                font-size: 0.82rem;
-                line-height: 1.5;
-            }
-
-            .featured-event .cta-button {
-                display: block;
-                text-align: center;
-                padding: 0.75rem 1rem;
-                font-size: 0.85rem;
             }
 
             section {
@@ -403,7 +316,6 @@
                 line-height: 1.6;
             }
 
-            /* Removed the min-height/line-height tap target hack — it was breaking inline link spacing */
             .interest-item a,
             ul.workshop-list a {
                 display: inline;
@@ -439,26 +351,18 @@
         </div>
     </section>
 
-    <!-- Featured Event -->
-    <section class="featured-event">
-        <div class="container">
-            <div class="event-box">
-                <div class="label">Upcoming Event</div>
-                <h2>Escaping McMindfulness: On the Commodification of Craving</h2>
-                <p class="event-meta">Discussion at the London Night Cafe • 10 March 2026, 6:30 PM</p>
-                <a href="https://luma.com/ioehgo9j" class="cta-button" target="_blank">Sign Up</a>
-            </div>
-        </div>
-    </section>
-
     <!-- Past Workshops -->
     <section>
         <div class="container">
             <h2>Past Workshops</h2>
             <ul class="workshop-list">
                 <li>
-                    Feel Tank: On Ambivalence, Dissatisfaction and Disappointment<br>
-                    <span style="color: var(--text-secondary); font-size: 0.95rem;"><a href="https://festival.antiuniversity.org/" target="_blank">AntiUniversity Festival 2025</a></span>
+                    <a href="https://luma.com/ioehgo9j" target="_blank">Escaping McMindfulness: On the Commodification of Craving</a><br>
+                    <span style="color: var(--text-secondary); font-size: 0.95rem;">London Night Cafe, 10 March 2026</span>
+                </li>
+                <li>
+                    <a href="https://festival.antiuniversity.org/event/$8Yfobg5XStkIUuuiCme1G_adLSoasuJB7DsFzcRf-Zg" target="_blank">Feel Tank: On Ambivalence, Dissatisfaction and Disappointment</a><br>
+                    <span style="color: var(--text-secondary); font-size: 0.95rem;">AntiUniversity Festival 2025</span>
                 </li>
                 <li>
                     Critical Hedonism(s): On the Politics of Desire<br>
@@ -509,7 +413,7 @@
 
     <!-- Footer -->
     <footer>
-        <p> 2026 Lydia Williamson-Sawyer • <a href="mailto:lydiawsawyer@protonmail.com">lydiawsawyer@protonmail.com</a></p>
+        <p>© 2026 Lydia Williamson-Sawyer • <a href="mailto:lydiawsawyer@protonmail.com">lydiawsawyer@protonmail.com</a></p>
     </footer>
 </body>
 </html>
