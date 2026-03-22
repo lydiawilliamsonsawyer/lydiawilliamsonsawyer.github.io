@@ -34,6 +34,294 @@
             -webkit-font-smoothing: antialiased;
         }
         
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(250, 250, 248, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+            z-index: 1000;
+            padding: 1.2rem 0;
+        }
+        
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        nav .logo {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+            align-items: center;
+        }
+        
+        nav a {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            letter-spacing: 0.3px;
+        }
+        
+        nav a:hover {
+            color: var(--accent);
+        }
+        
+        nav .email-link {
+            padding: 0.5rem 1.2rem;
+            background: var(--primary-dark);
+            color: white;
+            border-radius: 3px;
+            font-weight: 500;
+        }
+        
+        nav .email-link:hover {
+            background: var(--accent);
+            color: white;
+        }
+        
+        /* Main Content */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 6rem 2rem 3rem;
+        }
+        
+        main > h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: var(--primary-dark);
+        }
+        
+        section {
+            margin-bottom: 2rem;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1.2rem;
+            font-weight: 600;
+            color: var(--primary-dark);
+            border-bottom: 2px solid var(--border-subtle);
+            padding-bottom: 0.5rem;
+        }
+        
+        .cv-item {
+            margin-bottom: 1.5rem;
+        }
+        
+        .cv-item h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.2rem;
+        }
+        
+        .cv-item .meta {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .cv-item p {
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+        
+        .cv-item ul {
+            margin-left: 1.5rem;
+            margin-bottom: 0.8rem;
+        }
+        
+        .cv-item a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        .cv-item a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Footer */
+        footer {
+            padding: 3rem 2rem;
+            background: var(--bg-cream);
+            text-align: center;
+        }
+        
+        footer p {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav ul {
+                gap: 1rem;
+            }
+            
+            nav a {
+                font-size: 0.8rem;
+            }
+            
+            .hero {
+                padding: 6rem 1.5rem 3rem;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            main {
+                padding: 2rem 1.5rem;
+            }
+            
+            h2 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="/" class="logo"></a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/cv/">CV</a></li>
+                <li><a href="/projects/">Projects</a></li>
+                <li><a href="/cdn-cgi/l/email-protection#4e22372a272f393d2f39372b3c0e3e3c213a2120232f2722602d2123" class="email-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <h1>CV</h1>
+        
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+            
+            <div class="cv-item">
+                <h3>The London School of Economics and Political Science</h3>
+                <p class="meta">2024-2026</p>
+                <p>MSc Culture and Society (part-time); awarded distinction in first year</p>
+            </div>
+            
+            <div class="cv-item">
+                <h3>University of Cambridge, Sidney Sussex College</h3>
+                <p class="meta">2017-2020</p>
+                <p>First-Class Honours BA in Human, Social, and Political Sciences; awarded James Johnson Scholarship; awarded grant for overseas research</p>
+            </div>
+        </section>
+
+        <!-- Work -->
+        <section>
+            <h2>Work</h2>
+            
+            <div class="cv-item">
+                <h3>Contributing Writer, Cripping Methods Lab</h3>
+                <p class="meta">January 2026</p>
+                <p>I am writing an academic glossary for a project on disability-centred approaches to sociological research.</p>
+            </div>
+            
+            <div class="cv-item">
+                <h3>Web, Admin, and Events, Kairos Counter-Club</h3>
+                <p class="meta">November 2025-present</p>
+                <p>Coordinate and update website, newsletters, and mailboxes; support venue setup and support of public talks and workshops.</p>
+            </div>
+            
+            <div class="cv-item">
+                <h3>Digital Accessibility Workshop Co-designer, LSE Eden Centre</h3>
+                <p class="meta">March 2025-May 2025</p>
+                <p>Co-designed an immersive digital accessibility workshop for LSE staff and academics to improve digital accessibility and inclusion.</p>
+            </div>
+            
+            <div class="cv-item">
+                <h3>Campaigns Officer, Royal National Institute of Blind People</h3>
+                <p class="meta">May 2022-August 2024</p>
+                <p>Led planning and delivery of RNIB campaigns across education, accessible voting, and employment. Delivered digital communications and supporter engagement actions via Engaging Networks, using analytics to optimise social impact.</p>
+                <p>A campaign I worked on was awarded <a href="https://www.linkedin.com/posts/rnib_charityawards-activity-7216801218373791747-wYgI" target="_blank">The Charity Awards 'Campaigning and Advocacy Award'</a> and I spoke on <a href="https://audioboom.com/posts/8152520-join-unlocking-equality-by-changing-behaviours-an-rnib-panel-discussion-event-and-help-to-cha" target="_blank">RNIB Connect Radio</a> about behaviour change and sight loss.</p>
+            </div>
+            
+            <div class="cv-item">
+                <h3>Assistant Campaigns Officer, Royal National Institute of Blind People</h3>
+                <p class="meta">November 2021-May 2022</p>
+                <p>Managed public enquiries, assisted with parliamentary events, and updated RNIB Campaigns social media.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Lydia Williamson-Sawyer • <a href="/cdn-cgi/l/email-protection#036f7a676a62747062747a66<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | Lydia Williamson-Sawyer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-dark: #1a1a1a;
+            --secondary-dark: #2d2d2d;
+            --accent: #2d5a7b;
+            --text-primary: #1a1a1a;
+            --text-secondary: #4a4a4a;
+            --bg-light: #fafaf8;
+            --bg-cream: #f5f3ef;
+            --border-subtle: #e0ddd6;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Crimson Text', serif;
+            font-size: 19px;
+            line-height: 1.5;
+            color: var(--text-primary);
+            background: var(--bg-light);
+            -webkit-font-smoothing: antialiased;
+        }
+        
         nav {
             position: fixed;
             top: 0;
