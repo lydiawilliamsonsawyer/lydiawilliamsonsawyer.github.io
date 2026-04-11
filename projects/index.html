@@ -219,7 +219,6 @@
         }
         
         @media (max-width: 768px) {
-
             nav {
                 padding: 0.8rem 0;
             }
@@ -278,7 +277,7 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="/cv/">CV</a></li>
                 <li><a href="/projects/">Projects</a></li>
-                <li><a href="/cdn-cgi/l/email-protection#3e52475a575f494d5f49475b4c7e4e4c514a5150535f5752105d5153" class="email-link">Contact</a></li>
+                <li><a href="mailto:lydiawsawyer@protonmail.com" class="email-link">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -287,8 +286,8 @@
         <h1>Projects</h1>
         
         <section class="project">
-            <h2>AI chatbot use in Buddhist communities</h2>
-            <p>I'm currently writing AI chatbot use guidelines informed by Buddhist ethical precepts: (1) non-harm and metta, (2) generosity, (3) honesty, (4) respectful relationships, and (5) mindfulness. Check back for updates (March 2026).</p>
+            <h2>Buddhist ethics and AI safety</h2>
+            <p>I'm currently writing AI safety guidelines informed by Buddhist ethical precepts: (1) non-harm and metta, (2) generosity, (3) honesty, (4) respectful relationships, and (5) mindfulness. Check back for updates (March 2026).</p>
         </section>
 
         <section class="project">
@@ -298,9 +297,9 @@
             
             <p>Inspired by the <a href="https://chronicle.uchicago.edu/071018/political-feeling.shtml" target="_blank">Feel Tank Chicago</a> of the early 2000s, this project reimagines the Feel Tank in response to the unstable and insecure conditions of the current day. The Feel Tank counters the individualising logics of late-stage neoliberal capitalism which tell us that our feelings are to be privately managed, worked on, or 'fixed'. Rather than our so-called negative feelings, such as hopelessness and despair, being signs of individual defect, what if they were grounds for political awareness and mobilisation? The Feel Tank is a space to feel, reflect on, and come together in response to the complex, contradictory and perhaps nonsensical nature of living and feeling in precarious and uncertain conditions.</p>
             
-            <p>I am particularly interested in using the Feel Tank framework to explore incongruent and ambivalent feelings, for which we do not inherit a cultural 'script' to make sense of. This focus is inspired by Feel Tank Chicago member Lauren Berlant's work on the political possibilities of ambivalence. They write how ambivalence stems from the tension between learned commitments to conventional ideals combined with the felt recognition of disappointment that stems from the failure of these ideals to truly satisfy.</p>
+            <p>I am particularly interested in using the Feel Tank framework to explore incongruent and ambivalent feelings, for which we do not inherit a cultural 'script' to make sense of. This focus is inspired by Feel Tank Chicago member Lauren Berlant's work on the political possibilities of ambivalence. They write how ambivalence stem froms the tension between learned commitments to conventional ideals combined with the felt recognition of disappointment and disenchantment which stems from the failure of these ideals to truly deliver a 'good life'.</p>
             
-            <p>I facilitated at Feel Tank at the MayDay Rooms in October 2025, during which I gave an introduction to the history of Feel Tanks and value of examining the socio-political nature of feelings. We then explored how ambivalence arises in our lives in relation to work, technology, relationships, and well-being. These are some photos and reflections from the workshop:</p>
+            <p>I facilitated at Feel Tank at the MayDay Rooms in October 2025, during which I gave an introduction to the history and value of examining the socio-political nature of feelings. We then explored how ambivalence arises in our lives in relation to work, technology, relationships, and well-being. These are some photos and reflections from the workshop:</p>
             
             <div class="slideshow-container">
                 <div class="slide active">
@@ -328,11 +327,20 @@
     </main>
 
     <footer>
-        <p> 2026 Lydia Williamson-Sawyer • <a href="/cdn-cgi/l/email-protection#65091c010c04121604121c00172515170a110a0b08040c094b060a08"><span class="__cf_email__" data-cfemail="600c19040901171301171905122010120f140f0e0d01090c4e030f0d">[email&#160;protected]</span></a></p>
+        <p>2026 Lydia Williamson-Sawyer • <a href="mailto:lydiawsawyer@protonmail.com">lydiawsawyer@protonmail.com</a></p>
     </footer>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <script>
         let slideIndex = 0;
 
         function changeSlide(n) {
             const slides = document.querySelectorAll('.slide');
+            slides[slideIndex].classList.remove('active');
+            slideIndex += n;
+            if (slideIndex >= slides.length) slideIndex = 0;
+            if (slideIndex < 0) slideIndex = slides.length - 1;
+            slides[slideIndex].classList.add('active');
+        }
+    </script>
+</body>
+</html>
