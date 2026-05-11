@@ -211,6 +211,37 @@
         .interest-item a:hover {
             color: var(--primary-dark);
         }
+
+        /* Newsletter Section */
+        .newsletter-section {
+            background: white;
+        }
+
+        .newsletter-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.05rem;
+            transition: color 0.3s ease;
+        }
+
+        .newsletter-link:hover {
+            color: var(--primary-dark);
+        }
+
+        .newsletter-link::after {
+            content: '→';
+            font-style: normal;
+            transition: transform 0.2s ease;
+        }
+
+        .newsletter-link:hover::after {
+            transform: translateX(3px);
+        }
         
         /* Footer */
         footer {
@@ -351,6 +382,15 @@
         </div>
     </section>
 
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <h2>Public Ambivalence Newsletter</h2>
+            <p>I've recently started a newsletter about the social and political significance of feelings and emotions. The first piece is on <a href="https://lydiawilliamsonsawyer.substack.com/p/the-broken-promise-of-feeling-better-890" target="_blank">The Broken Promise of Feeling Better</a> — how the pursuit of relief keeps us trapped.</p>
+            <a href="https://lydiawilliamsonsawyer.substack.com" target="_blank" class="newsletter-link">Read on Substack</a>
+        </div>
+    </section>
+
     <!-- Past Workshops -->
     <section>
         <div class="container">
@@ -409,3 +449,6 @@
     <!-- Footer -->
     <footer>
         <p>Lydia Williamson-Sawyer • <a href="mailto:lydiawilliamsonsawyer@gmail.com">lydiawilliamsonsawyer@gmail.com</a></p>
+    </footer>
+</body>
+</html>
