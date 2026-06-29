@@ -88,32 +88,37 @@
 
         nav .email-link:hover { background: var(--accent); color: white; }
 
-        /* Page hero */
-        .page-hero {
-            padding: 7rem 2rem 2rem;
-            background: white;
-            border-bottom: 1px solid var(--border-subtle);
-        }
+       /* Intro */
 
-        .page-hero .container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
+.intro {
+    padding: 7rem 2rem 3rem;
+    background: white;
+    border-bottom: 1px solid var(--border-subtle);
+}
 
-        .page-hero h1 {
-            font-size: 3.8rem;
-            font-weight: 600;
-            line-height: 1.1;
-            margin-bottom: 1rem;
-            color: var(--primary-dark);
-            letter-spacing: -0.5px;
-        }
+.intro .container {
+    max-width: 900px;
+    margin: 0 auto;
+}
 
-        .page-hero .subtitle {
-            font-size: 1.2rem;
-            color: var(--text-secondary);
-            font-style: italic;
-        }
+.intro h1 {
+    font-size: 2.9rem;
+    line-height: 1.15;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    color: var(--primary-dark);
+    letter-spacing: -0.3px;
+}
+
+.intro p {
+    max-width: 760px;
+    margin-bottom: 1.4rem;
+    color: var(--text-primary);
+}
+
+.intro p:last-child {
+    margin-bottom: 0;
+}
 
         /* Sections */
         section {
@@ -203,23 +208,43 @@
         footer a:hover { text-decoration: underline; }
 
         /* Mobile */
-        @media (max-width: 768px) {
-            nav { padding: 0.8rem 0; }
-            nav .container { padding: 0 1rem; }
-            nav ul { gap: 0.8rem; }
-            nav a { font-size: 0.82rem; }
-            nav .email-link { padding: 0.4rem 0.75rem; font-size: 0.82rem; }
+@media (max-width: 768px) {
+    nav { padding: 0.8rem 0; }
+    nav .container { padding: 0 1rem; }
+    nav ul { gap: 0.8rem; }
+    nav a { font-size: 0.82rem; }
+    nav .email-link { padding: 0.4rem 0.75rem; font-size: 0.82rem; }
 
-            .page-hero { padding: 5.5rem 1.2rem 2rem; }
-            .page-hero h1 { font-size: 2.2rem; }
-            .page-hero .subtitle { font-size: 1.05rem; }
+    .intro {
+        padding: 5.5rem 1.2rem 2rem;
+    }
 
-            section { padding: 1.8rem 1.2rem; }
-            section h2 { font-size: 1.6rem; }
+    .intro h1 {
+        font-size: 2.1rem;
+        margin-bottom: 1.5rem;
+    }
 
-            .workshop-title { font-size: 1.2rem; }
+    .intro p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
 
-            footer { padding: 1.5rem 1.2rem; }
+    section {
+        padding: 1.8rem 1.2rem;
+    }
+
+    section h2 {
+        font-size: 1.6rem;
+    }
+
+    .workshop-title {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        padding: 1.5rem 1.2rem;
+    }
+
         }
     </style>
 </head>
@@ -239,16 +264,19 @@
         </div>
     </nav>
 
-    <div class="page-hero">
-        <div class="container">
-            <h1>Facilitation</h1>
-            <p class="subtitle">I run and facilitate workshops and group discussions exploring affect and embodiment in relation to social and political systems.</p>
-        </div>
+    <section class="intro">
+    <div class="container">
+        <h1>Facilitation</h1>
+
+        <p>
+            I design and facilitate workshops that use creative and participatory methods to explore feelings, embodiment, and collective life. My facilitation draws on affect theory, feminist pedagogy, and contemplative practice to create spaces for reflection, conversation, and experimentation.
+        </p>
+            
     </div>
+</section>
 
     <section>
         <div class="container">
-            <h2>Past Workshops</h2>
             <ul class="workshop-list">
 
                 <li>
