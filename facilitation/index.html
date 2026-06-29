@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facilitation | Lydia Williamson-Sawyer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-dark: #1a1a1a;
+            --secondary-dark: #2d2d2d;
+            --accent: #2d5a7b;
+            --text-primary: #1a1a1a;
+            --text-secondary: #4a4a4a;
+            --bg-light: #fafaf9;
+            --border-subtle: #e5e5e5;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Crimson Text', serif;
+            font-size: 19px;
+            line-height: 1.5;
+            color: var(--text-primary);
+            background: #fafaf9;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(250, 250, 248, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+            z-index: 1000;
+            padding: 1.2rem 0;
+        }
+
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .logo {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+            align-items: center;
+        }
+
+        nav a {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            letter-spacing: 0.3px;
+        }
+
+        nav a:hover { color: var(--accent); }
+
+        nav .email-link {
+            padding: 0.5rem 1.2rem;
+            background: var(--primary-dark);
+            color: white;
+            border-radius: 3px;
+            font-weight: 500;
+        }
+
+        nav .email-link:hover { background: var(--accent); color: white; }
+
+        /* Page hero */
+        .page-hero {
+            padding: 7rem 2rem 2rem;
+            background: white;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .page-hero .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .page-hero h1 {
+            font-size: 3.8rem;
+            font-weight: 600;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+            color: var(--primary-dark);
+            letter-spacing: -0.5px;
+        }
+
+        .page-hero .subtitle {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Sections */
+        section {
+            padding: 2rem 2rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        section .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            color: var(--primary-dark);
+        }
+
+        section p { margin-bottom: 1rem; color: var(--text-primary); }
+
+        /* Workshop list */
+        .workshop-list { list-style: none; margin-top: 0.5rem; }
+
+        .workshop-list li {
+            padding: 1.75rem 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .workshop-list li:first-child { padding-top: 0; }
+        .workshop-list li:last-child { border-bottom: none; padding-bottom: 0; }
+
+        .workshop-meta {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            letter-spacing: 0.3px;
+            margin-bottom: 0.5rem;
+        }
+
+        .workshop-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 1.3;
+            margin-bottom: 0.6rem;
+            color: var(--primary-dark);
+        }
+
+        .workshop-title a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .workshop-title a:hover { color: var(--primary-dark); }
+
+        .workshop-desc {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            max-width: 680px;
+            margin: 0;
+        }
+
+        .workshop-desc a {
+            color: var(--accent);
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 2px;
+        }
+
+        .workshop-desc a:hover { color: var(--primary-dark); }
+
+        /* Footer */
+        footer {
+            padding: 2rem;
+            background: white;
+            text-align: center;
+        }
+
+        footer p {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        footer a { color: var(--accent); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            nav { padding: 0.8rem 0; }
+            nav .container { padding: 0 1rem; }
+            nav ul { gap: 0.8rem; }
+            nav a { font-size: 0.82rem; }
+            nav .email-link { padding: 0.4rem 0.75rem; font-size: 0.82rem; }
+
+            .page-hero { padding: 5.5rem 1.2rem 2rem; }
+            .page-hero h1 { font-size: 2.2rem; }
+            .page-hero .subtitle { font-size: 1.05rem; }
+
+            section { padding: 1.8rem 1.2rem; }
+            section h2 { font-size: 1.6rem; }
+
+            .workshop-title { font-size: 1.2rem; }
+
+            footer { padding: 1.5rem 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <a href="/" class="logo"></a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/cv/">CV</a></li>
+                <li><a href="/projects/">Projects</a></li>
+                <li><a href="/writing/">Writing</a></li>
+                <li><a href="/facilitation/">Facilitation</a></li>
+                <li><a href="mailto:lydiawilliamsonsawyer@gmail.com" class="email-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="page-hero">
+        <div class="container">
+            <h1>Facilitation</h1>
+            <p class="subtitle">Workshops and discussions on feelings.</p>
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+            <h2>Past Workshops</h2>
+            <ul class="workshop-list">
+
+                <li>
+                    <div class="workshop-meta">London Night Cafe &mdash; March 2026</div>
+                    <div class="workshop-title"><a href="https://luma.com/ioehgo9j" target="_blank">Escaping McMindfulness: On the Commodification of Craving</a></div>
+                    <p class="workshop-desc">A discussion on the relationship between Buddhism and consumer society's dependence on perpetual craving and the promise of satisfaction. We explored the Buddhist teaching of samsara to examine how cycles of suffering are sustained under capitalism, where satisfaction and fulfilment are sought after yet never fully realised.</p>
+                </li>
+
+                <li>
+                    <div class="workshop-meta">AntiUniversity Festival &mdash; October 2025</div>
+                    <div class="workshop-title"><a href="https://festival.antiuniversity.org/event/$8Yfobg5XStkIUuuiCme1G_adLSoasuJB7DsFzcRf-Zg" target="_blank">Feel Tank: On Ambivalence, Dissatisfaction and Disappointment</a></div>
+                    <p class="workshop-desc">An experiment in reflecting on and exploring the complexity, ambivalence, and perhaps nonsensical nature of feelings. More information about this on my <a href="/projects/">projects page</a>.</p>
+                </li>
+
+                <li>
+                    <div class="workshop-meta">Alt Shift Festival, Germany &mdash; August 2025</div>
+                    <div class="workshop-title">Critical Hedonism(s): On the Politics of Desire</div>
+                    <p class="workshop-desc">A discussion on the politics of desire facilitated at a Degrowth festival with activists and campaigners from across Europe. We explored how we may desire differently in ways not dependent on economic growth and consumption, with examples from our own lives of ways we find pleasure and happiness that are collectivist and anti-capitalist.</p>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Lydia Williamson-Sawyer • <a href="mailto:lydiawilliamsonsawyer@gmail.com">lydiawilliamsonsawyer@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
