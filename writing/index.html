@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing | Lydia Williamson-Sawyer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-dark: #1a1a1a;
+            --secondary-dark: #2d2d2d;
+            --accent: #2d5a7b;
+            --text-primary: #1a1a1a;
+            --text-secondary: #4a4a4a;
+            --bg-light: #fafaf9;
+            --border-subtle: #e5e5e5;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Crimson Text', serif;
+            font-size: 19px;
+            line-height: 1.5;
+            color: var(--text-primary);
+            background: #fafaf9;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(250, 250, 248, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+            z-index: 1000;
+            padding: 1.2rem 0;
+        }
+
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .logo {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+            align-items: center;
+        }
+
+        nav a {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            letter-spacing: 0.3px;
+        }
+
+        nav a:hover { color: var(--accent); }
+
+        nav .email-link {
+            padding: 0.5rem 1.2rem;
+            background: var(--primary-dark);
+            color: white;
+            border-radius: 3px;
+            font-weight: 500;
+        }
+
+        nav .email-link:hover { background: var(--accent); color: white; }
+
+        /* Page hero */
+        .page-hero {
+            margin-top: 0;
+            padding: 7rem 2rem 2rem;
+            background: white;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .page-hero .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .page-hero h1 {
+            font-size: 3.8rem;
+            font-weight: 600;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+            color: var(--primary-dark);
+            letter-spacing: -0.5px;
+        }
+
+        .page-hero .subtitle {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Sections */
+        section {
+            padding: 2rem 2rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        section .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            color: var(--primary-dark);
+        }
+
+        section p { margin-bottom: 1rem; color: var(--text-primary); }
+
+        /* Newsletter block */
+        .newsletter-section { background: white; }
+
+        .newsletter-section p { max-width: 680px; }
+
+        .newsletter-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.05rem;
+            transition: color 0.3s ease;
+        }
+
+        .newsletter-link:hover { color: var(--primary-dark); }
+
+        .newsletter-link::after {
+            content: '→';
+            font-style: normal;
+            transition: transform 0.2s ease;
+        }
+
+        .newsletter-link:hover::after { transform: translateX(3px); }
+
+        /* Article list */
+        .articles-section { background: #fafaf9; }
+
+        .article-list { margin-top: 0.5rem; }
+
+        .article {
+            padding: 1.75rem 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .article:first-child { padding-top: 0; }
+        .article:last-child { border-bottom: none; padding-bottom: 0; }
+
+        .article-meta {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            letter-spacing: 0.3px;
+            margin-bottom: 0.5rem;
+        }
+
+        .article h3 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+
+        .article h3 a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .article h3 a:hover { color: var(--primary-dark); }
+
+        .article p {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            max-width: 680px;
+            margin: 0;
+        }
+
+        /* Footer */
+        footer {
+            padding: 2rem;
+            background: white;
+            text-align: center;
+        }
+
+        footer p {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        footer a { color: var(--accent); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            nav { padding: 0.8rem 0; }
+            nav .container { padding: 0 1rem; }
+            nav ul { gap: 0.8rem; }
+            nav a { font-size: 0.82rem; }
+            nav .email-link { padding: 0.4rem 0.75rem; font-size: 0.82rem; }
+
+            .page-hero { padding: 5.5rem 1.2rem 2rem; }
+            .page-hero h1 { font-size: 2.2rem; }
+            .page-hero .subtitle { font-size: 1.05rem; }
+
+            section { padding: 1.8rem 1.2rem; }
+            section h2 { font-size: 1.6rem; }
+
+            .article h3 { font-size: 1.2rem; }
+
+            footer { padding: 1.5rem 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <a href="/" class="logo"></a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/cv/">CV</a></li>
+                <li><a href="/projects/">Projects</a></li>
+                <li><a href="/writing/">Writing</a></li>
+                <li><a href="/facilitation/">Facilitation</a></li>
+                <li><a href="mailto:lydiawilliamsonsawyer@gmail.com" class="email-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="page-hero">
+        <div class="container">
+            <h1>Writing</h1>
+            <p class="subtitle">Selected writing.</p>
+        </div>
+    </div>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+        <div class="container">
+            <h2>Public Ambivalence Newsletter</h2>
+            <p>A newsletter about the social and political significance of ambivalent and incongruent feelings. The first piece is on <a href="https://lydiawilliamsonsawyer.substack.com/p/the-broken-promise-of-feeling-better-890" target="_blank" style="color: var(--accent);">The Broken Promise of Feeling Better</a> — how the pursuit of relief keeps us trapped.</p>
+            <a href="https://lydiawilliamsonsawyer.substack.com" target="_blank" class="newsletter-link">Read on Substack</a>
+        </div>
+    </section>
+
+    <!-- Articles -->
+    <section class="articles-section">
+        <div class="container">
+            <h2>Articles</h2>
+            <div class="article-list">
+
+                <div class="article">
+                    <div class="article-meta">LSE Media Blog</div>
+                    <h3><a href="https://blogs.lse.ac.uk/medialse/2026/06/19/indebted-or-empowered-feminism-in-the-age-of-financialisation/" target="_blank">Indebted or Empowered? Feminism in the Age of Financialisation</a></h3>
+                    <p>A reflection on the <em>New Mergers of Feminism and Finance</em> symposium hosted by LSE's Media and Communications Department. Examining how financialisation produces new forms of gendered indebtedness while simultaneously presenting finance as a route to women's empowerment.</p>
+                </div>
+
+                <div class="article">
+                    <div class="article-meta">The Beaver, The LSE Newspaper</div>
+                    <h3><a href="https://thebeaverlse.co.uk/what-are-the-costs-of-a-cashless-future/" target="_blank">What Are the Costs of a Cashless Future?</a></h3>
+                    <p>Cash is disappearing. Everywhere we go, cafes, train stations, supermarkets, even at LSE, we are being pressured towards a world where only digital payments are accepted. We are told that abandoning cash will bring convenience and ease. Yet the quiet transition to a cashless future presents a risk to our civil liberties, digital security, and economic resilience. </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Lydia Williamson-Sawyer • <a href="mailto:lydiawilliamsonsawyer@gmail.com">lydiawilliamsonsawyer@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
