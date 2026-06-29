@@ -90,24 +90,21 @@
 
        /* Intro */
         
-.intro {
+main {
     max-width: 900px;
     margin: 0 auto;
     padding: 6rem 2rem 3rem;
 }
 
-.intro .container {
-    max-width: none;
-    margin: 0;
+main > h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: var(--primary-dark);
 }
 
-.intro h1 {
-    font-size: 2.5rem;
-    line-height: 1.15;
-    margin-bottom: 1.5rem;
-    font-weight: 600;
-    color: var(--primary-dark);
-    letter-spacing: 0;
+main > p {
+    margin-bottom: 2rem;
 }
 
         /* Sections */
@@ -252,17 +249,12 @@
         </div>
     </nav>
 
-    <section class="intro">
-    <div class="container">
-        <h1>Facilitation</h1>
-        <p class="subtitle">I run and facilitate workshops on affect and embodiment in relation to social and political systems. Recent workshops include:</p>
-            
-    </div>
-</section>
+    <main>
+    <h1>Facilitation</h1>
 
-    <section>
-        <div class="container">
-            <ul class="workshop-list">
+    <p>I run and facilitate workshops on affect and embodiment in relation to social and political systems.</p>
+
+    <ul class="workshop-list">
 
                 <li>
                     <div class="workshop-meta">London Night Cafe &mdash; March 2026</div>
@@ -282,10 +274,9 @@
                     <p class="workshop-desc">A discussion on the politics of desire facilitated at a Degrowth festival with activists and campaigners from across Europe. We explored how we may desire differently in ways not dependent on economic growth and consumption, with examples from our own lives of ways we find pleasure and happiness that are collectivist and anti-capitalist.</p>
                 </li>
 
-            </ul>
-        </div>
-    </section>
-
+                </ul>
+            </main>
+    
     <footer>
         <p>© 2026 Lydia Williamson-Sawyer • <a href="mailto:lydiawilliamsonsawyer@gmail.com">lydiawilliamsonsawyer@gmail.com</a></p>
     </footer>
