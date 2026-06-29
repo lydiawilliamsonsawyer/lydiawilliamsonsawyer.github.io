@@ -89,46 +89,29 @@
         nav .email-link:hover { background: var(--accent); color: white; }
 
         /* Page hero */
-.page-hero {
+main {
     max-width: 900px;
     margin: 0 auto;
-    padding: 6rem 2rem 2rem;
+    padding: 6rem 2rem 3rem;
 }
 
-.page-hero .container {
-    max-width: none;
-    margin: 0;
-}
-
-.page-hero h1 {
+main > h1 {
     font-size: 2.5rem;
     font-weight: 600;
-    line-height: 1.15;
-    margin-bottom: 0;
+    margin-bottom: 1.5rem;
     color: var(--primary-dark);
 }
 
         /* Sections */
         section {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 2rem 2.5rem;
+    padding-bottom: 2.5rem;
     border-bottom: none;
 }
 
 section .container {
     max-width: none;
     margin: 0;
-}
-
-section h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
-}
-
-section p {
-    margin-bottom: 1rem;
+    padding: 0;
 }
 
         /* Newsletter block */
@@ -254,15 +237,10 @@ section p {
         </div>
     </nav>
 
-    <div class="page-hero">
-        <div class="container">
-            <h1>Writing</h1>
-        </div>
-    </div>
+    <main>
+    <h1>Writing</h1>
 
-    <!-- Newsletter -->
     <section class="newsletter-section">
-        <div class="container">
             <h2>Public Ambivalence Newsletter</h2>
             <p>A newsletter about the social and political significance of ambivalent and incongruent feelings. The first piece is on <a href="https://lydiawilliamsonsawyer.substack.com/p/the-broken-promise-of-feeling-better-890" target="_blank" style="color: var(--accent);">The Broken Promise of Feeling Better</a> — how the pursuit of relief keeps us trapped.</p>
             <a href="https://lydiawilliamsonsawyer.substack.com" target="_blank" class="newsletter-link">Read on Substack</a>
@@ -289,9 +267,10 @@ section p {
 
             </div>
         </div>
-    </section>
+        </section>
+</main>
 
-    <footer>
+<footer>
         <p>© 2026 Lydia Williamson-Sawyer • <a href="mailto:lydiawilliamsonsawyer@gmail.com">lydiawilliamsonsawyer@gmail.com</a></p>
     </footer>
 
